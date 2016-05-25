@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="3" name="Failed suite [Fluid PUMA PoC]" parallel="true">
+  <parameter name="webSite" value="https://storefront:puma123@development.eu.puma.com/_PUMA"/>
+  <parameter name="deviceHost" value="localhost"/>
+  <parameter name="imageLoad" value="true"/>
+  <parameter name="browserDataProvider" value="Browsers.txt"/>
+  <parameter name="devicePort" value="4444"/>
+  <parameter name="browserName" value="Chrome_windows, Firefox_windows"/>
+  <parameter name="framesLoad" value="true"/>
+  <parameter name="documentLoad" value="false"/>
+  <parameter name="securityTest" value="false"/>
+  <parameter name="paymentDataProvider" value="PaymentTypes.txt"/>
+  <test name="Fluid PUMA(failed)" parallel="true">
+    <classes>
+      <class name="com.puma.testscripts.Fluid_PUMA_Demo">
+        <methods>
+          <include name="beforeSuite"/>
+          <include name="afterSuite"/>
+          <include name="beforeMethod"/>
+          <include name="afterMethod"/>
+          <include name="tcPUMADemo01" invocation-numbers="1 2 3 0"/>
+        </methods>
+      </class> <!-- com.puma.testscripts.Fluid_PUMA_Demo -->
+    </classes>
+  </test> <!-- Fluid PUMA(failed) -->
+</suite> <!-- Failed suite [Fluid PUMA PoC] -->

@@ -1,2 +1,0 @@
-Firefox_Windows
-Chrome_Windows

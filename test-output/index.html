@@ -23,7 +23,7 @@
     <div class="top-banner-root">
       <span class="top-banner-title-font">Test results</span>
       <br/>
-      <span class="top-banner-font-1">1 suite</span>
+      <span class="top-banner-font-1">1 suite, 2 failed tests</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -37,7 +37,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" class="navigator-link" panel-name="suite-Fluid_PUMA_PoC">
-              <span class="suite-name border-passed">Fluid PUMA PoC</span>
+              <span class="suite-name border-failed">Fluid PUMA PoC</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -48,7 +48,7 @@
               <ul>
                 <li>
                   <a href="#" class="navigator-link " panel-name="test-xml-Fluid_PUMA_PoC">
-                    <span>D:\Ecommerce Framework\testxml\SEC_Ecommerce_Framework.xml</span>
+                    <span>D:\FluidRepo\25052016\testxml\Fluid_PUMA.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -90,7 +90,26 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">1 method,   1 passed</span>
+                    <span class="method-stats">4 methods, 2 failed,   2 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Fluid_PUMA_PoC" class="hide-methods failed suite-Fluid_PUMA_PoC"> (hide)</a> <!-- hide-methods failed suite-Fluid_PUMA_PoC -->
+                      <a href="#" panel-name="suite-Fluid_PUMA_PoC" class="show-methods failed suite-Fluid_PUMA_PoC"> (show)</a> <!-- show-methods failed suite-Fluid_PUMA_PoC -->
+                    </span>
+                    <div class="method-list-content failed suite-Fluid_PUMA_PoC">
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Fluid_PUMA_PoC" title="com.puma.testscripts.Fluid_PUMA_Demo" hash-for-method="tcPUMADemo01((Browser: chrome, Hub: aspire512, Node: LOCALHOST), chrome_XP, https://storefront:puma123@developmen...)">tcPUMADemo01((Browser: chrome, Hub: aspire512, Node: LOCALHOST), chrome_XP, https://storefront:puma123@developmen...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Fluid_PUMA_PoC" title="com.puma.testscripts.Fluid_PUMA_Demo" hash-for-method="tcPUMADemo01(Firefox_Windows, https://storefront:puma123@development.eu.puma.com/_PUMA, VISA&lt;&gt;4111111111111111&lt;&gt;0...)">tcPUMADemo01(Firefox_Windows, https://storefront:puma123@development.eu.puma.com/_PUMA, VISA<>4111111111111111<>0...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Fluid_PUMA_PoC -->
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -101,7 +120,12 @@
                     <div class="method-list-content passed suite-Fluid_PUMA_PoC">
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Fluid_PUMA_PoC" title="com.SECFramework.testscripts.SearsSmokeTC" hash-for-method="tcAccountCreation((Browser: chrome, Hub: aspire512, Node: LOCALHOST), chrome_XP, https://development-initium-searsca.d...)">tcAccountCreation((Browser: chrome, Hub: aspire512, Node: LOCALHOST), chrome_XP, https://development-initium-searsca.d...)</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-Fluid_PUMA_PoC" title="com.puma.testscripts.Fluid_PUMA_Demo" hash-for-method="tcPUMADemo01((Browser: chrome, Hub: aspire512, Node: LOCALHOST), chrome_XP, https://storefront:puma123@developmen...)">tcPUMADemo01((Browser: chrome, Hub: aspire512, Node: LOCALHOST), chrome_XP, https://storefront:puma123@developmen...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Fluid_PUMA_PoC" title="com.puma.testscripts.Fluid_PUMA_Demo" hash-for-method="tcPUMADemo01((Browser: firefox, Hub: aspire512, Node: LOCALHOST), firefox_WINDOWS, https://storefront:puma123@dev...)">tcPUMADemo01((Browser: firefox, Hub: aspire512, Node: LOCALHOST), firefox_WINDOWS, https://storefront:puma123@dev...)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Fluid_PUMA_PoC -->
@@ -116,20 +140,138 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-Fluid_PUMA_PoC" class="panel Fluid_PUMA_PoC">
-          <div class="suite-Fluid_PUMA_PoC-class-passed">
+          <div class="suite-Fluid_PUMA_PoC-class-failed">
             <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">com.SECFramework.testscripts.SearsSmokeTC</span>
+              <img src="failed.png"/>
+              <span class="class-name">com.puma.testscripts.Fluid_PUMA_Demo</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="tcAccountCreation((Browser: chrome, Hub: aspire512, Node: LOCALHOST), chrome_XP, https://development-initium-searsca.d...)">
-                  </a> <!-- tcAccountCreation((Browser: chrome, Hub: aspire512, Node: LOCALHOST), chrome_XP, https://development-initium-searsca.d...) -->
-                  <span class="method-name">tcAccountCreation</span>
-                  <span class="parameters">((Browser: chrome, Hub: aspire512, Node: LOCALHOST), chrome_XP, https://development-initium-searsca.demandware.net/on/demandware.store/Sites-SearsCA-Site)</span>
+                  <a name="tcPUMADemo01((Browser: chrome, Hub: aspire512, Node: LOCALHOST), chrome_XP, https://storefront:puma123@developmen...)">
+                  </a> <!-- tcPUMADemo01((Browser: chrome, Hub: aspire512, Node: LOCALHOST), chrome_XP, https://storefront:puma123@developmen...) -->
+                  <span class="method-name">tcPUMADemo01</span>
+                  <span class="parameters">((Browser: chrome, Hub: aspire512, Node: LOCALHOST), chrome_XP, https://storefront:puma123@development.eu.puma.com/_PUMA, MasterCard<>5555555555554444<>08<>2018<>787)</span>
+                  <div class="stack-trace">java.lang.AssertionError: Test Failed. Order Placed not available in Order Summary Page
+	at org.testng.Assert.fail(Assert.java:94)
+	at com.ecom.support.Log.fail(Log.java:594)
+	at com.ecom.support.Log.assertThat(Log.java:777)
+	at com.puma.testscripts.Fluid_PUMA_Demo.tcPUMADemo01(Fluid_PUMA_Demo.java:96)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:73)
+	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:14)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+
+</div> <!-- stack-trace -->
                   <em>
-(Account creation)                  </em>
+(Fluid-PUMA End To End Scenario)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="tcPUMADemo01(Firefox_Windows, https://storefront:puma123@development.eu.puma.com/_PUMA, VISA&lt;&gt;4111111111111111&lt;&gt;0...)">
+                  </a> <!-- tcPUMADemo01(Firefox_Windows, https://storefront:puma123@development.eu.puma.com/_PUMA, VISA<>4111111111111111<>0...) -->
+                  <span class="method-name">tcPUMADemo01</span>
+                  <span class="parameters">(Firefox_Windows, https://storefront:puma123@development.eu.puma.com/_PUMA, VISA<>4111111111111111<>08<>2018<>787)</span>
+                  <div class="stack-trace">org.openqa.selenium.WebDriverException: Unable to connect to host 127.0.0.1 on port 7056 after 45000 ms. Firefox console output:
+
+Command duration or timeout: 101.30 seconds
+Build info: version: &apos;2.51.0&apos;, revision: &apos;1af067dbcaedd7d2ab9af5151fc471d363d97193&apos;, time: &apos;2016-02-05 11:20:57&apos;
+System info: host: &apos;aspire512&apos;, ip: &apos;172.24.166.109&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_45&apos;
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:249)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:131)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:158)
+	at com.ecom.support.WebDriverFactory.get(WebDriverFactory.java:263)
+	at com.puma.testscripts.Fluid_PUMA_Demo.tcPUMADemo01(Fluid_PUMA_Demo.java:32)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:73)
+	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:14)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: org.openqa.selenium.remote.ErrorHandler$UnknownServerException: Unable to connect to host 127.0.0.1 on port 7056 after 45000 ms. Firefox console output:
+
+Build info: version: &apos;2.51.0&apos;, revision: &apos;1af067dbcaedd7d2ab9af5151fc471d363d97193&apos;, time: &apos;2016-02-05 11:20:57&apos;
+System info: host: &apos;aspire512&apos;, ip: &apos;172.24.166.109&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_45&apos;
+Driver info: driver.version: FirefoxDriver
+	at org.openqa.selenium.firefox.internal.NewProfileExtensionConnection.start(NewProfileExtensionConnection.java:112)
+	at org.openqa.selenium.firefox.FirefoxDriver.startClient(FirefoxDriver.java:271)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:119)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:218)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:211)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:129)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.server.FirefoxDriverProvider.callConstructor(FirefoxDriverProvider.java:91)
+	at org.openqa.selenium.remote.server.FirefoxDriverProvider.newInstance(FirefoxDriverProvider.java:68)
+	at org.openqa.selenium.remote.server.DefaultDriverFactory.newInstance(DefaultDriverFactory.java:60)
+	at org.openqa.selenium.remote.server.DefaultSession$BrowserCreator.call(DefaultSession.java:222)
+	at org.openqa.selenium.remote.server.DefaultSession$BrowserCreator.call(DefaultSession.java:1)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at org.openqa.selenium.remote.server.DefaultSession$1.run(DefaultSession.java:176)
+	... 3 more
+
+</div> <!-- stack-trace -->
+                  <em>
+(Fluid-PUMA End To End Scenario)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Fluid_PUMA_PoC-class-failed -->
+          <div class="suite-Fluid_PUMA_PoC-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.puma.testscripts.Fluid_PUMA_Demo</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="tcPUMADemo01((Browser: chrome, Hub: aspire512, Node: LOCALHOST), chrome_XP, https://storefront:puma123@developmen...)">
+                  </a> <!-- tcPUMADemo01((Browser: chrome, Hub: aspire512, Node: LOCALHOST), chrome_XP, https://storefront:puma123@developmen...) -->
+                  <span class="method-name">tcPUMADemo01</span>
+                  <span class="parameters">((Browser: chrome, Hub: aspire512, Node: LOCALHOST), chrome_XP, https://storefront:puma123@development.eu.puma.com/_PUMA, VISA<>4111111111111111<>08<>2018<>787)</span>
+                  <em>
+(Fluid-PUMA End To End Scenario)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="tcPUMADemo01((Browser: firefox, Hub: aspire512, Node: LOCALHOST), firefox_WINDOWS, https://storefront:puma123@dev...)">
+                  </a> <!-- tcPUMADemo01((Browser: firefox, Hub: aspire512, Node: LOCALHOST), firefox_WINDOWS, https://storefront:puma123@dev...) -->
+                  <span class="method-name">tcPUMADemo01</span>
+                  <span class="parameters">((Browser: firefox, Hub: aspire512, Node: LOCALHOST), firefox_WINDOWS, https://storefront:puma123@development.eu.puma.com/_PUMA, MasterCard<>5555555555554444<>08<>2018<>787)</span>
+                  <em>
+(Fluid-PUMA End To End Scenario)                  </em>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -137,29 +279,26 @@
         </div> <!-- panel Fluid_PUMA_PoC -->
         <div panel-name="test-xml-Fluid_PUMA_PoC" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">D:\Ecommerce Framework\testxml\SEC_Ecommerce_Framework.xml</span>
+            <span class="header-content">D:\FluidRepo\25052016\testxml\Fluid_PUMA.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
 &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
 &lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
 &lt;suite verbose=&quot;3&quot; name=&quot;Fluid PUMA PoC&quot; parallel=&quot;true&quot;&gt;
-  &lt;parameter name=&quot;webSite&quot; value=&quot;https://development-initium-searsca.demandware.net/on/demandware.store/Sites-SearsCA-Site&quot;/&gt;
+  &lt;parameter name=&quot;webSite&quot; value=&quot;https://storefront:puma123@development.eu.puma.com/_PUMA&quot;/&gt;
   &lt;parameter name=&quot;deviceHost&quot; value=&quot;localhost&quot;/&gt;
   &lt;parameter name=&quot;imageLoad&quot; value=&quot;true&quot;/&gt;
+  &lt;parameter name=&quot;browserDataProvider&quot; value=&quot;Browsers.txt&quot;/&gt;
   &lt;parameter name=&quot;devicePort&quot; value=&quot;4444&quot;/&gt;
-  &lt;parameter name=&quot;browserName&quot; value=&quot;Chrome_windows&quot;/&gt;
+  &lt;parameter name=&quot;browserName&quot; value=&quot;Chrome_windows, Firefox_windows&quot;/&gt;
   &lt;parameter name=&quot;framesLoad&quot; value=&quot;true&quot;/&gt;
   &lt;parameter name=&quot;documentLoad&quot; value=&quot;false&quot;/&gt;
   &lt;parameter name=&quot;securityTest&quot; value=&quot;false&quot;/&gt;
   &lt;parameter name=&quot;paymentDataProvider&quot; value=&quot;PaymentTypes.txt&quot;/&gt;
   &lt;test thread-count=&quot;5&quot; name=&quot;Fluid PUMA&quot;&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;com.SECFramework.testscripts.SearsSmokeTC&quot;&gt;
-        &lt;methods&gt;
-          &lt;include name=&quot;tcAccountCreation&quot;/&gt;
-        &lt;/methods&gt;
-      &lt;/class&gt; &lt;!-- com.SECFramework.testscripts.SearsSmokeTC --&gt;
+      &lt;class name=&quot;com.puma.testscripts.Fluid_PUMA_Demo&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Fluid PUMA --&gt;
 &lt;/suite&gt; &lt;!-- Fluid PUMA PoC --&gt;
@@ -199,16 +338,28 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(1);
+data.addRows(4);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'tcAccountCreation')
-data.setCell(0, 2, 'com.SECFramework.testscripts.SearsSmokeTC')
-data.setCell(0, 3, 104063);
+data.setCell(0, 1, 'tcPUMADemo01')
+data.setCell(0, 2, 'com.puma.testscripts.Fluid_PUMA_Demo')
+data.setCell(0, 3, 681726);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'tcPUMADemo01')
+data.setCell(1, 2, 'com.puma.testscripts.Fluid_PUMA_Demo')
+data.setCell(1, 3, 681567);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'tcPUMADemo01')
+data.setCell(2, 2, 'com.puma.testscripts.Fluid_PUMA_Demo')
+data.setCell(2, 3, 663564);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'tcPUMADemo01')
+data.setCell(3, 2, 'com.puma.testscripts.Fluid_PUMA_Demo')
+data.setCell(3, 3, 2);
 window.suiteTableData['Fluid_PUMA_PoC']= { tableData: data, tableDiv: 'times-div-Fluid_PUMA_PoC'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 1 minutes</span>
+              <span class="suite-total-time">Total running time: 33 minutes</span>
               <div id="times-div-Fluid_PUMA_PoC">
               </div> <!-- times-div-Fluid_PUMA_PoC -->
             </div> <!-- times-div -->
@@ -220,87 +371,247 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="reporter-method-div">
-              <span class="reporter-method-name">tcAccountCreation((Browser: chrome, Hub: aspire512, Node: LOCALHOST), chrome_XP, https://development-initium-searsca.d...)</span>
+              <span class="reporter-method-name">tcPUMADemo01((Browser: chrome, Hub: aspire512, Node: LOCALHOST), chrome_XP, https://storefront:puma123@developmen...)</span>
               <div class="reporter-method-output-div">
-                <span class="reporter-method-output"><div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 21 Jul 18:15:35 949 - <b>0</b> - Driver::Get - com.SECFramework.support.WebDriverFactory.get(WebDriverFactory.java:326)</small> </font> </div></span>
-                <span class="reporter-method-output">&emsp;<div class="test-title"> <strong><font size = "3" color = "#000080">Account Creation<small><b><i>[Chrome_windows || SEARSCA.DEMANDWARE.NET/ON/DEMANDWARE.STORE/SITES ]</b></i></small></font> </strong> </div>&emsp;<div><strong>Steps:</strong></div><!-- Report -->&emsp;</span>
-                <span class="reporter-method-output"><div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 21 Jul 18:15:36 745 - Page URL:: data:,</small> </font> </div></span>
-                <span class="reporter-method-output"><div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 21 Jul 18:15:36 747 - <b>0</b> - Page Load Wait: (Sync) - com.SECFramework.support.Utils.waitForPageLoad(Utils.java:68)</small> </font> </div></span>
-                <span class="reporter-method-output"><div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 21 Jul 18:15:41 889 - Page URL:: data:,</small> </font> </div></span>
-                <span class="reporter-method-output"><div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 21 Jul 18:15:41 891 - <b>0</b> - Page Load Wait: (Sync) - com.SECFramework.support.Utils.waitForPageLoad(Utils.java:68)</small> </font> </div></span>
-                <span class="reporter-method-output"><div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 21 Jul 18:16:15 251 - Element is displayed:: [[RemoteWebDriver: chrome on XP (0f128b02-97d7-4744-ad0a-6fa7cc5b2035)] -> css selector: div[class*='top-nav'] svg[class*='search__icon']]</small> </font> </div></span>
-                <span class="reporter-method-output"><div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 21 Jul 18:16:15 879 - Page URL:: https://development-initium-searsca.demandware.net/on/demandware.store/sites-searsca-site</small> </font> </div></span>
-                <span class="reporter-method-output"><div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 21 Jul 18:16:15 880 - <b>0</b> - Page Load Wait: (Sync) - com.SECFramework.support.Utils.waitForPageLoad(Utils.java:68)</small> </font> </div></span>
-                <span class="reporter-method-output"><div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 21 Jul 18:16:16 661 - Page URL:: https://development-initium-searsca.demandware.net/on/demandware.store/sites-searsca-site</small> </font> </div></span>
-                <span class="reporter-method-output"><div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 21 Jul 18:16:16 663 - <b>0</b> - Page Load Wait: (Sync) - com.SECFramework.support.Utils.waitForPageLoad(Utils.java:68)</small> </font> </div></span>
-                <span class="reporter-method-output"><div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 21 Jul 18:16:16 743 - Element is displayed:: [[RemoteWebDriver: chrome on XP (0f128b02-97d7-4744-ad0a-6fa7cc5b2035)] -> css selector: div[class*='top-nav'] svg[class*='search__icon']]</small> </font> </div></span>
-                <span class="reporter-method-output"><div class="test-message">&emsp;Step 1. Navigated to 'searsca.demandware.net/on/demandware.store/Sites' Home Page!</div></span>
-                <span class="reporter-method-output"><div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 21 Jul 18:16:16 950 - Element is displayed:: [[RemoteWebDriver: chrome on XP (0f128b02-97d7-4744-ad0a-6fa7cc5b2035)] -> css selector: div[class*='top-nav'] svg[class*='icon-account']]</small> </font> </div></span>
-                <span class="reporter-method-output"><div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 21 Jul 18:16:17 140 - <b>0</b> - Clicked on the sign in link! - com.SECFramework.pages.HomePage.clickSignIn(HomePage.java:181)</small> </font> </div></span>
-                <span class="reporter-method-output"><div class="test-message">&emsp;Step 2. My account pop up displayed&emsp;<a href=".\ScreenShot\tcAccountCreation_1.png" target="_blank" >[ScreenShot]</a></div></span>
-                <span class="reporter-method-output"><div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 21 Jul 18:16:18 521 - Element is displayed:: [[RemoteWebDriver: chrome on XP (0f128b02-97d7-4744-ad0a-6fa7cc5b2035)] -> css selector: div[class*='top-nav'] [title*='Register']]</small> </font> </div></span>
-                <span class="reporter-method-output"><div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 21 Jul 18:16:42 055 - <b>0</b> - Clicked on the sign in link! - com.SECFramework.pages.HomePage.clickRegister(HomePage.java:194)</small> </font> </div></span>
-                <span class="reporter-method-output"><div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 21 Jul 18:16:42 401 - Page URL:: https://development-initium-searsca.demandware.net/on/demandware.store/sites-searsca-site/default/account-startregister</small> </font> </div></span>
-                <span class="reporter-method-output"><div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 21 Jul 18:16:42 404 - <b>0</b> - Page Load Wait: (Sync) - com.SECFramework.support.Utils.waitForPageLoad(Utils.java:68)</small> </font> </div></span>
-                <span class="reporter-method-output"><div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 21 Jul 18:16:42 684 - Element is displayed:: [[RemoteWebDriver: chrome on XP (0f128b02-97d7-4744-ad0a-6fa7cc5b2035)] -> css selector: div[class='breadcrumb']]</small> </font> </div></span>
-                <span class="reporter-method-output"><div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 21 Jul 18:16:42 862 - Element is displayed:: [[RemoteWebDriver: chrome on XP (0f128b02-97d7-4744-ad0a-6fa7cc5b2035)] -> css selector: div[class='breadcrumb']]</small> </font> </div></span>
-                <span class="reporter-method-output"><div class="test-message">&emsp;Step 3. Navigated to account creation page!&emsp;<a href=".\ScreenShot\tcAccountCreation_2.png" target="_blank" >[ScreenShot]</a></div></span>
-                <span class="reporter-method-output"><div class="test-event"> <font color="brown"> <small> &emsp; &emsp;--- 21 Jul 18:16:43 131 - <b>0</b> - Option not matched - please read Method document to pass correct form of parameter. Try: Type/Click/Select - com.SECFramework.reuseMethods.Account_Util.doAccountOperations(Account_Util.java:71)</small> </font> </div></span>
-                <span class="reporter-method-output"><div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 21 Jul 18:16:43 336 - Page URL:: https://development-initium-searsca.demandware.net/on/demandware.store/sites-searsca-site/default/account-startregister</small> </font> </div></span>
-                <span class="reporter-method-output"><div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 21 Jul 18:16:43 338 - <b>0</b> - Page Load Wait: (Sync) - com.SECFramework.support.Utils.waitForPageLoad(Utils.java:68)</small> </font> </div></span>
-                <span class="reporter-method-output"><div class="test-event"> <font color="brown"> <small> &emsp; &emsp;--- 21 Jul 18:16:43 339 - <b>0</b> - Option not matched - please read Method document to pass correct form of parameter. Try: Type/Click/Select - com.SECFramework.reuseMethods.Account_Util.doAccountOperations(Account_Util.java:71)</small> </font> </div></span>
-                <span class="reporter-method-output"><div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 21 Jul 18:16:43 435 - Page URL:: https://development-initium-searsca.demandware.net/on/demandware.store/sites-searsca-site/default/account-startregister</small> </font> </div></span>
-                <span class="reporter-method-output"><div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 21 Jul 18:16:43 436 - <b>0</b> - Page Load Wait: (Sync) - com.SECFramework.support.Utils.waitForPageLoad(Utils.java:68)</small> </font> </div></span>
-                <span class="reporter-method-output"><div class="test-event"> <font color="brown"> <small> &emsp; &emsp;--- 21 Jul 18:16:43 437 - <b>0</b> - Option not matched - please read Method document to pass correct form of parameter. Try: Type/Click/Select - com.SECFramework.reuseMethods.Account_Util.doAccountOperations(Account_Util.java:71)</small> </font> </div></span>
-                <span class="reporter-method-output"><div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 21 Jul 18:16:43 536 - Page URL:: https://development-initium-searsca.demandware.net/on/demandware.store/sites-searsca-site/default/account-startregister</small> </font> </div></span>
-                <span class="reporter-method-output"><div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 21 Jul 18:16:43 537 - <b>0</b> - Page Load Wait: (Sync) - com.SECFramework.support.Utils.waitForPageLoad(Utils.java:68)</small> </font> </div></span>
-                <span class="reporter-method-output"><div class="test-event"> <font color="brown"> <small> &emsp; &emsp;--- 21 Jul 18:16:43 538 - <b>0</b> - Option not matched - please read Method document to pass correct form of parameter. Try: Type/Click/Select - com.SECFramework.reuseMethods.Account_Util.doAccountOperations(Account_Util.java:71)</small> </font> </div></span>
-                <span class="reporter-method-output"><div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 21 Jul 18:16:43 644 - Page URL:: https://development-initium-searsca.demandware.net/on/demandware.store/sites-searsca-site/default/account-startregister</small> </font> </div></span>
-                <span class="reporter-method-output"><div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 21 Jul 18:16:43 645 - <b>0</b> - Page Load Wait: (Sync) - com.SECFramework.support.Utils.waitForPageLoad(Utils.java:68)</small> </font> </div></span>
-                <span class="reporter-method-output"><div class="test-event"> <font color="brown"> <small> &emsp; &emsp;--- 21 Jul 18:16:43 647 - <b>0</b> - Option not matched - please read Method document to pass correct form of parameter. Try: Type/Click/Select - com.SECFramework.reuseMethods.Account_Util.doAccountOperations(Account_Util.java:71)</small> </font> </div></span>
-                <span class="reporter-method-output"><div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 21 Jul 18:16:43 761 - Page URL:: https://development-initium-searsca.demandware.net/on/demandware.store/sites-searsca-site/default/account-startregister</small> </font> </div></span>
-                <span class="reporter-method-output"><div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 21 Jul 18:16:43 762 - <b>0</b> - Page Load Wait: (Sync) - com.SECFramework.support.Utils.waitForPageLoad(Utils.java:68)</small> </font> </div></span>
-                <span class="reporter-method-output"><div class="test-event"> <font color="brown"> <small> &emsp; &emsp;--- 21 Jul 18:16:43 763 - <b>0</b> - Option not matched - please read Method document to pass correct form of parameter. Try: Type/Click/Select - com.SECFramework.reuseMethods.Account_Util.doAccountOperations(Account_Util.java:71)</small> </font> </div></span>
-                <span class="reporter-method-output"><div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 21 Jul 18:16:43 858 - Page URL:: https://development-initium-searsca.demandware.net/on/demandware.store/sites-searsca-site/default/account-startregister</small> </font> </div></span>
-                <span class="reporter-method-output"><div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 21 Jul 18:16:43 859 - <b>0</b> - Page Load Wait: (Sync) - com.SECFramework.support.Utils.waitForPageLoad(Utils.java:68)</small> </font> </div></span>
-                <span class="reporter-method-output"><div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 21 Jul 18:16:43 953 - Element is displayed:: [[RemoteWebDriver: chrome on XP (0f128b02-97d7-4744-ad0a-6fa7cc5b2035)] -> css selector: input[id='dwfrm_profile_customer_firstname']]</small> </font> </div></span>
-                <span class="reporter-method-output"><div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 21 Jul 18:16:44 476 - Page URL:: https://development-initium-searsca.demandware.net/on/demandware.store/sites-searsca-site/default/account-startregister</small> </font> </div></span>
-                <span class="reporter-method-output"><div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 21 Jul 18:16:44 479 - <b>0</b> - Page Load Wait: (Sync) - com.SECFramework.support.Utils.waitForPageLoad(Utils.java:68)</small> </font> </div></span>
-                <span class="reporter-method-output"><div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 21 Jul 18:16:44 593 - Element is displayed:: [[RemoteWebDriver: chrome on XP (0f128b02-97d7-4744-ad0a-6fa7cc5b2035)] -> css selector: input[id='dwfrm_profile_customer_lastname']]</small> </font> </div></span>
-                <span class="reporter-method-output"><div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 21 Jul 18:16:45 107 - Page URL:: https://development-initium-searsca.demandware.net/on/demandware.store/sites-searsca-site/default/account-startregister</small> </font> </div></span>
-                <span class="reporter-method-output"><div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 21 Jul 18:16:45 108 - <b>0</b> - Page Load Wait: (Sync) - com.SECFramework.support.Utils.waitForPageLoad(Utils.java:68)</small> </font> </div></span>
-                <span class="reporter-method-output"><div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 21 Jul 18:16:45 310 - Element is displayed:: [[RemoteWebDriver: chrome on XP (0f128b02-97d7-4744-ad0a-6fa7cc5b2035)] -> css selector: input[id='dwfrm_profile_customer_email']]</small> </font> </div></span>
-                <span class="reporter-method-output"><div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 21 Jul 18:16:46 406 - Page URL:: https://development-initium-searsca.demandware.net/on/demandware.store/sites-searsca-site/default/account-startregister</small> </font> </div></span>
-                <span class="reporter-method-output"><div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 21 Jul 18:16:46 408 - <b>0</b> - Page Load Wait: (Sync) - com.SECFramework.support.Utils.waitForPageLoad(Utils.java:68)</small> </font> </div></span>
-                <span class="reporter-method-output"><div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 21 Jul 18:16:46 526 - Element is displayed:: [[RemoteWebDriver: chrome on XP (0f128b02-97d7-4744-ad0a-6fa7cc5b2035)] -> css selector: input[id='dwfrm_profile_customer_emailconfirm']]</small> </font> </div></span>
-                <span class="reporter-method-output"><div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 21 Jul 18:16:47 241 - Page URL:: https://development-initium-searsca.demandware.net/on/demandware.store/sites-searsca-site/default/account-startregister</small> </font> </div></span>
-                <span class="reporter-method-output"><div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 21 Jul 18:16:47 242 - <b>0</b> - Page Load Wait: (Sync) - com.SECFramework.support.Utils.waitForPageLoad(Utils.java:68)</small> </font> </div></span>
-                <span class="reporter-method-output"><div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 21 Jul 18:16:47 497 - Element is displayed:: [[RemoteWebDriver: chrome on XP (0f128b02-97d7-4744-ad0a-6fa7cc5b2035)] -> css selector: input[id*='dwfrm_profile_login_password']]</small> </font> </div></span>
-                <span class="reporter-method-output"><div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 21 Jul 18:16:48 267 - Page URL:: https://development-initium-searsca.demandware.net/on/demandware.store/sites-searsca-site/default/account-startregister</small> </font> </div></span>
-                <span class="reporter-method-output"><div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 21 Jul 18:16:48 269 - <b>0</b> - Page Load Wait: (Sync) - com.SECFramework.support.Utils.waitForPageLoad(Utils.java:68)</small> </font> </div></span>
-                <span class="reporter-method-output"><div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 21 Jul 18:16:48 415 - Element is displayed:: [[RemoteWebDriver: chrome on XP (0f128b02-97d7-4744-ad0a-6fa7cc5b2035)] -> css selector: input[id*='dwfrm_profile_login_passwordconfirm']]</small> </font> </div></span>
-                <span class="reporter-method-output"><div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 21 Jul 18:16:48 873 - Page URL:: https://development-initium-searsca.demandware.net/on/demandware.store/sites-searsca-site/default/account-startregister</small> </font> </div></span>
-                <span class="reporter-method-output"><div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 21 Jul 18:16:48 874 - <b>0</b> - Page Load Wait: (Sync) - com.SECFramework.support.Utils.waitForPageLoad(Utils.java:68)</small> </font> </div></span>
-                <span class="reporter-method-output"><div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 21 Jul 18:16:48 969 - Element is displayed:: [[RemoteWebDriver: chrome on XP (0f128b02-97d7-4744-ad0a-6fa7cc5b2035)] -> css selector: [value='Apply']]</small> </font> </div></span>
-                <span class="reporter-method-output"><div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 21 Jul 18:17:17 403 - Page URL:: https://development-initium-searsca.demandware.net/on/demandware.store/sites-searsca-site/default/account-show?registration=true</small> </font> </div></span>
-                <span class="reporter-method-output"><div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 21 Jul 18:17:17 404 - <b>0</b> - Page Load Wait: (Sync) - com.SECFramework.support.Utils.waitForPageLoad(Utils.java:68)</small> </font> </div></span>
-                <span class="reporter-method-output"><div class="test-message">&emsp;Step 4.Account has been successfully created!&emsp;<a href=".\ScreenShot\tcAccountCreation_3.png" target="_blank" >[ScreenShot]</a></div></span>
+                <span class="reporter-method-output">&emsp;<div class="test-title"> <strong><font size = "3" color = "#000080">PUMA PoC - End To End Scenario<small><b><i>[Chrome_Windows || PUMA ]</b></i></small></font> </strong> </div>&emsp;<div><strong>Steps:</strong></div><!-- Report -->&emsp;</span>
+                <span class="reporter-method-output"><div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 26 May 12:09:29 821 - Page URL:: data:,</small> </font> </div></span>
+                <span class="reporter-method-output"><div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 26 May 12:10:23 916 - Page URL:: https://storefront:puma123@development.eu.puma.com/</small> </font> </div></span>
+                <span class="reporter-method-output"><div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 26 May 12:10:25 465 - Element is displayed:: [[RemoteWebDriver: chrome on XP (2bcb4867-48f3-4365-82f9-511948315337)] -> css selector: form[role='search'] button[type='submit']]</small> </font> </div></span>
+                <span class="reporter-method-output"><div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 26 May 12:10:36 410 - Page URL:: https://storefront:puma123@development.eu.puma.com/</small> </font> </div></span>
+                <span class="reporter-method-output"><div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 26 May 12:10:44 451 - Page URL:: https://storefront:puma123@development.eu.puma.com/</small> </font> </div></span>
+                <span class="reporter-method-output"><div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 26 May 12:10:44 796 - Element is displayed:: [[RemoteWebDriver: chrome on XP (2bcb4867-48f3-4365-82f9-511948315337)] -> css selector: form[role='search'] button[type='submit']]</small> </font> </div></span>
+                <span class="reporter-method-output"><div class="test-message">&emsp;Step 1. Navigated to 'PUMA' Home Page!</div></span>
+                <span class="reporter-method-output"><div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 26 May 12:10:45 711 - Element is displayed:: [[RemoteWebDriver: chrome on XP (2bcb4867-48f3-4365-82f9-511948315337)] -> css selector: input[name='q']]</small> </font> </div></span>
+                <span class="reporter-method-output"><div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 26 May 12:10:48 179 - Element is displayed:: [[RemoteWebDriver: chrome on XP (2bcb4867-48f3-4365-82f9-511948315337)] -> css selector: form[role='search'] button[type='submit']]</small> </font> </div></span>
+                <span class="reporter-method-output"><div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 26 May 12:12:39 010 - Page URL:: http://development.eu.puma.com/en/search?q=shoes</small> </font> </div></span>
+                <span class="reporter-method-output"><div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 26 May 12:12:39 365 - Element is displayed:: [[RemoteWebDriver: chrome on XP (2bcb4867-48f3-4365-82f9-511948315337)] -> css selector: ul[id='search-result-items'] li[class*='grid-tile']]</small> </font> </div></span>
+                <span class="reporter-method-output"><div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 26 May 12:12:39 618 - Element is displayed:: [[RemoteWebDriver: chrome on XP (2bcb4867-48f3-4365-82f9-511948315337)] -> css selector: ul[id='search-result-items'] li[class*='grid-tile']]</small> </font> </div></span>
+                <span class="reporter-method-output"><div class="test-message">&emsp;Step 2. Searched Product SKU: Shoes!</div></span>
+                <span class="reporter-method-output"><div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 26 May 12:15:24 220 - Page URL:: http://development.eu.puma.com/en/pd/suede-tricks-kids%e2%80%99-trainers/361129.html?dwvar_361129_color=black-pink%20glo#q=shoes&start=1</small> </font> </div></span>
+                <span class="reporter-method-output"><div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 26 May 12:15:26 437 - Page URL:: http://development.eu.puma.com/en/pd/suede-tricks-kids%e2%80%99-trainers/361129.html?dwvar_361129_color=black-pink%20glo#q=shoes&start=1</small> </font> </div></span>
+                <span class="reporter-method-output"><div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 26 May 12:15:30 575 - Page URL:: http://development.eu.puma.com/en/pd/suede-tricks-kids%e2%80%99-trainers/361129.html?dwvar_361129_color=black-pink%20glo#q=shoes&start=1</small> </font> </div></span>
+                <span class="reporter-method-output"><div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 26 May 12:15:32 692 - Page URL:: http://development.eu.puma.com/en/pd/suede-tricks-kids%e2%80%99-trainers/361129.html?dwvar_361129_color=black-pink%20glo#q=shoes&start=1</small> </font> </div></span>
+                <span class="reporter-method-output"><div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 26 May 12:15:35 690 - Page URL:: http://development.eu.puma.com/en/pd/suede-tricks-kids%e2%80%99-trainers/361129.html?dwvar_361129_color=black-pink%20glo#q=shoes&start=1</small> </font> </div></span>
+                <span class="reporter-method-output"><div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 26 May 12:15:36 084 - Element is displayed:: [[RemoteWebDriver: chrome on XP (2bcb4867-48f3-4365-82f9-511948315337)] -> css selector: button[id='add-to-cart']]</small> </font> </div></span>
+                <span class="reporter-method-output"><div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 26 May 12:15:36 476 - Element is displayed:: [[RemoteWebDriver: chrome on XP (2bcb4867-48f3-4365-82f9-511948315337)] -> css selector: div[class='mini-cart-total']]</small> </font> </div></span>
+                <span class="reporter-method-output"><div class="test-message">&emsp;Step 3. Added Item to the Bag [Name: SUEDE TRICKS KIDS’ TRAINERS | SKU: 361129_01]</div></span>
+                <span class="reporter-method-output"><div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 26 May 12:15:37 080 - Element is displayed:: [[RemoteWebDriver: chrome on XP (2bcb4867-48f3-4365-82f9-511948315337)] -> css selector: div[class='mini-cart-total']]</small> </font> </div></span>
+                <span class="reporter-method-output"><div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 26 May 12:15:54 961 - Page URL:: https://development.eu.puma.com/en/cart</small> </font> </div></span>
+                <span class="reporter-method-output"><div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 26 May 12:15:55 234 - Element is displayed:: [[RemoteWebDriver: chrome on XP (2bcb4867-48f3-4365-82f9-511948315337)] -> css selector: form[id='cart-items-form']]</small> </font> </div></span>
+                <span class="reporter-method-output"><div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 26 May 12:15:55 452 - Element is displayed:: [[RemoteWebDriver: chrome on XP (2bcb4867-48f3-4365-82f9-511948315337)] -> css selector: form[id='cart-items-form']]</small> </font> </div></span>
+                <span class="reporter-method-output"><div class="test-message">&emsp;Step 4. Navigated to Shopping Bag Page!</div></span>
+                <span class="reporter-method-output"><div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 26 May 12:16:01 006 - Page URL:: https://development.eu.puma.com/en/cart</small> </font> </div></span>
+                <span class="reporter-method-output"><div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 26 May 12:16:01 748 - Element is displayed:: [[RemoteWebDriver: chrome on XP (2bcb4867-48f3-4365-82f9-511948315337)] -> css selector: div[class*='cart-footer'] button[name*='checkoutCart']]</small> </font> </div></span>
+                <span class="reporter-method-output"><div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 26 May 12:16:22 078 - Page URL:: https://development.eu.puma.com/en/checkout/start</small> </font> </div></span>
+                <span class="reporter-method-output"><div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 26 May 12:16:22 642 - Element is displayed:: [[RemoteWebDriver: chrome on XP (2bcb4867-48f3-4365-82f9-511948315337)] -> css selector: button[name*='login']]</small> </font> </div></span>
+                <span class="reporter-method-output"><div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 26 May 12:16:23 284 - Element is displayed:: [[RemoteWebDriver: chrome on XP (2bcb4867-48f3-4365-82f9-511948315337)] -> css selector: button[name*='login']]</small> </font> </div></span>
+                <span class="reporter-method-output"><div class="test-message">&emsp;Step 5. Navigated to Checkout Page!</div></span>
+                <span class="reporter-method-output"><div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 26 May 12:16:24 063 - Element is displayed:: [[RemoteWebDriver: chrome on XP (2bcb4867-48f3-4365-82f9-511948315337)] -> css selector: button[name*='unregistered']]</small> </font> </div></span>
+                <span class="reporter-method-output"><div class="test-message">&emsp;Step 6. Navigated to Guest Checkout Page!</div></span>
+                <span class="reporter-method-output"><div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 26 May 12:17:26 900 - Page URL:: https://development.eu.puma.com/en/checkout/start?dwcont=c1428190934</small> </font> </div></span>
+                <span class="reporter-method-output"><div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 26 May 12:17:27 346 - Element is displayed:: [[RemoteWebDriver: chrome on XP (2bcb4867-48f3-4365-82f9-511948315337)] -> css selector: input[id*='firstName']]</small> </font> </div></span>
+                <span class="reporter-method-output"><div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 26 May 12:17:35 899 - Page URL:: https://development.eu.puma.com/en/checkout/start?dwcont=c1428190934</small> </font> </div></span>
+                <span class="reporter-method-output"><div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 26 May 12:17:36 224 - Element is displayed:: [[RemoteWebDriver: chrome on XP (2bcb4867-48f3-4365-82f9-511948315337)] -> css selector: input[id*='lastName']]</small> </font> </div></span>
+                <span class="reporter-method-output"><div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 26 May 12:17:38 362 - Page URL:: https://development.eu.puma.com/en/checkout/start?dwcont=c1428190934</small> </font> </div></span>
+                <span class="reporter-method-output"><div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 26 May 12:17:38 657 - Element is displayed:: [[RemoteWebDriver: chrome on XP (2bcb4867-48f3-4365-82f9-511948315337)] -> css selector: input[id*='address1']]</small> </font> </div></span>
+                <span class="reporter-method-output"><div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 26 May 12:17:43 283 - Page URL:: https://development.eu.puma.com/en/checkout/start?dwcont=c1428190934</small> </font> </div></span>
+                <span class="reporter-method-output"><div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 26 May 12:17:43 478 - Element is displayed:: [[RemoteWebDriver: chrome on XP (2bcb4867-48f3-4365-82f9-511948315337)] -> css selector: input[id*='suite']]</small> </font> </div></span>
+                <span class="reporter-method-output"><div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 26 May 12:17:46 749 - Page URL:: https://development.eu.puma.com/en/checkout/start?dwcont=c1428190934</small> </font> </div></span>
+                <span class="reporter-method-output"><div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 26 May 12:17:47 257 - Element is displayed:: [[RemoteWebDriver: chrome on XP (2bcb4867-48f3-4365-82f9-511948315337)] -> css selector: input[id*='zip']]</small> </font> </div></span>
+                <span class="reporter-method-output"><div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 26 May 12:17:49 843 - Page URL:: https://development.eu.puma.com/en/checkout/start?dwcont=c1428190934</small> </font> </div></span>
+                <span class="reporter-method-output"><div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 26 May 12:17:50 434 - Element is displayed:: [[RemoteWebDriver: chrome on XP (2bcb4867-48f3-4365-82f9-511948315337)] -> css selector: input[id*='city']]</small> </font> </div></span>
+                <span class="reporter-method-output"><div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 26 May 12:17:53 136 - Page URL:: https://development.eu.puma.com/en/checkout/start?dwcont=c1428190934</small> </font> </div></span>
+                <span class="reporter-method-output"><div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 26 May 12:17:53 450 - Element is displayed:: [[RemoteWebDriver: chrome on XP (2bcb4867-48f3-4365-82f9-511948315337)] -> css selector: input[id*='emailAddress']]</small> </font> </div></span>
+                <span class="reporter-method-output"><div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 26 May 12:18:03 646 - Page URL:: https://development.eu.puma.com/en/checkout/start?dwcont=c1428190934</small> </font> </div></span>
+                <span class="reporter-method-output"><div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 26 May 12:18:04 243 - Element is displayed:: [[RemoteWebDriver: chrome on XP (2bcb4867-48f3-4365-82f9-511948315337)] -> css selector: button[data-id*='countries_country']]</small> </font> </div></span>
+                <span class="reporter-method-output"><div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 26 May 12:18:06 871 - Page URL:: https://development.eu.puma.com/en/checkout/start?dwcont=c1428190934</small> </font> </div></span>
+                <span class="reporter-method-output"><div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 26 May 12:18:07 057 - Element is displayed:: [[RemoteWebDriver: chrome on XP (2bcb4867-48f3-4365-82f9-511948315337)] -> css selector: div[class*='country'][class*='open'] ul[class='dropdown-menu inner selectpicker'] li[rel='10']]</small> </font> </div></span>
+                <span class="reporter-method-output"><div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 26 May 12:18:20 961 - Page URL:: https://development.eu.puma.com/en/checkout/start?dwcont=c1428190934</small> </font> </div></span>
+                <span class="reporter-method-output"><div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 26 May 12:18:21 242 - Element is displayed:: [[RemoteWebDriver: chrome on XP (2bcb4867-48f3-4365-82f9-511948315337)] -> css selector: input[id*='emailConfirm']]</small> </font> </div></span>
+                <span class="reporter-method-output"><div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 26 May 12:18:28 070 - Page URL:: https://development.eu.puma.com/en/checkout/start?dwcont=c1428190934</small> </font> </div></span>
+                <span class="reporter-method-output"><div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 26 May 12:18:51 024 - Element is displayed:: [[RemoteWebDriver: chrome on XP (2bcb4867-48f3-4365-82f9-511948315337)] -> css selector: label[for='is-PAYMENTOPERATOR_CREDIT']]</small> </font> </div></span>
+                <span class="reporter-method-output"><div class="test-message">&emsp;Step 7. Entered Shipping/Payment Address Information and Proceeded to Payment Page!</div></span>
+                <span class="reporter-method-output"><div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 26 May 12:18:51 265 - Element is displayed:: [[RemoteWebDriver: chrome on XP (2bcb4867-48f3-4365-82f9-511948315337)] -> css selector: label[for='is-PAYMENTOPERATOR_CREDIT']]</small> </font> </div></span>
+                <span class="reporter-method-output"><div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 26 May 12:18:52 573 - Element is displayed:: [[RemoteWebDriver: chrome on XP (2bcb4867-48f3-4365-82f9-511948315337)] -> css selector: button[name*='billing_save']]</small> </font> </div></span>
+                <span class="reporter-method-output"><div class="test-message">&emsp;Step 8. Selected CC Payment!</div></span>
+                <span class="reporter-method-output"><div class="test-message">&emsp;Step 9. Proceeded to Order Review Page!</div></span>
+                <span class="reporter-method-output"><div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 26 May 12:19:06 325 - Element is displayed:: [[RemoteWebDriver: chrome on XP (2bcb4867-48f3-4365-82f9-511948315337)] -> css selector: button[name*='submit']]</small> </font> </div></span>
+                <span class="reporter-method-output"><div class="test-message">&emsp;Step 10. Submitted Order!</div></span>
+                <span class="reporter-method-output"><div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 26 May 12:19:33 003 - Element is displayed:: [[RemoteWebDriver: chrome on XP (2bcb4867-48f3-4365-82f9-511948315337)] -> css selector: select[name='KKName']]</small> </font> </div></span>
+                <span class="reporter-method-output"><div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 26 May 12:19:35 843 - Element is displayed:: [[RemoteWebDriver: chrome on XP (2bcb4867-48f3-4365-82f9-511948315337)] -> css selector: input[name='KKnr']]</small> </font> </div></span>
+                <span class="reporter-method-output"><div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 26 May 12:19:38 777 - Element is displayed:: [[RemoteWebDriver: chrome on XP (2bcb4867-48f3-4365-82f9-511948315337)] -> css selector: select[name='KKMonth']]</small> </font> </div></span>
+                <span class="reporter-method-output"><div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 26 May 12:19:41 626 - Element is displayed:: [[RemoteWebDriver: chrome on XP (2bcb4867-48f3-4365-82f9-511948315337)] -> css selector: select[name='KKYear']]</small> </font> </div></span>
+                <span class="reporter-method-output"><div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 26 May 12:19:44 817 - Element is displayed:: [[RemoteWebDriver: chrome on XP (2bcb4867-48f3-4365-82f9-511948315337)] -> css selector: input[name='cccvc']]</small> </font> </div></span>
+                <span class="reporter-method-output"><div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 26 May 12:19:45 959 - Element is displayed:: [[RemoteWebDriver: chrome on XP (2bcb4867-48f3-4365-82f9-511948315337)] -> css selector: input[value='Confirm']]</small> </font> </div></span>
+                <span class="reporter-method-output"><div class="test-message">&emsp;Step 11. Order Placed [Order Number: Order Number: 00000006833]!&emsp;<a href=".\ScreenShot\tcPUMADemo01_1.png" target="_blank" >[ScreenShot]</a></div></span>
+                <span class="reporter-method-output"><div class="test-message">&emsp;Step-12: Order Placed Successfully!!&emsp;<a href=".\ScreenShot\tcPUMADemo01_5.png" target="_blank" >[ScreenShot]</a></div></span>
+                <span class="reporter-method-output"><div class="test-message">&emsp;-- Order Info [ Product Name: SUEDE TRICKS KIDS’ TRAINERS || Product Sales Price: € 60,00 || Product SKU: 361129_01 || Payment Type: VISA || Card #: 4111111111111111 ].</div></span>
+                <span class="reporter-method-output"><div class="test-result"><br><font color="green"><strong> Test Passed.  </strong></font> </div>&emsp;</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">tcPUMADemo01((Browser: firefox, Hub: aspire512, Node: LOCALHOST), firefox_WINDOWS, https://storefront:puma123@dev...)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">&emsp;<div class="test-title"> <strong><font size = "3" color = "#000080">PUMA PoC - End To End Scenario<small><b><i>[Firefox_Windows || PUMA ]</b></i></small></font> </strong> </div>&emsp;<div><strong>Steps:</strong></div><!-- Report -->&emsp;</span>
+                <span class="reporter-method-output"><div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 26 May 12:10:01 751 - Page URL:: https://go.skype.com/skype.extension.faq</small> </font> </div></span>
+                <span class="reporter-method-output"><div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 26 May 12:11:17 177 - Page URL:: https://development.eu.puma.com/</small> </font> </div></span>
+                <span class="reporter-method-output"><div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 26 May 12:11:17 480 - Element is displayed:: [[RemoteWebDriver: firefox on WINDOWS (c7ef469f-1592-4fa3-9ee4-28cd2c56141d)] -> css selector: form[role='search'] button[type='submit']]</small> </font> </div></span>
+                <span class="reporter-method-output"><div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 26 May 12:11:23 334 - Page URL:: https://development.eu.puma.com/</small> </font> </div></span>
+                <span class="reporter-method-output"><div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 26 May 12:11:28 208 - Page URL:: https://development.eu.puma.com/</small> </font> </div></span>
+                <span class="reporter-method-output"><div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 26 May 12:11:28 342 - Element is displayed:: [[RemoteWebDriver: firefox on WINDOWS (c7ef469f-1592-4fa3-9ee4-28cd2c56141d)] -> css selector: form[role='search'] button[type='submit']]</small> </font> </div></span>
+                <span class="reporter-method-output"><div class="test-message">&emsp;Step 1. Navigated to 'PUMA' Home Page!</div></span>
+                <span class="reporter-method-output"><div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 26 May 12:11:28 507 - Element is displayed:: [[RemoteWebDriver: firefox on WINDOWS (c7ef469f-1592-4fa3-9ee4-28cd2c56141d)] -> css selector: input[name='q']]</small> </font> </div></span>
+                <span class="reporter-method-output"><div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 26 May 12:11:29 276 - Element is displayed:: [[RemoteWebDriver: firefox on WINDOWS (c7ef469f-1592-4fa3-9ee4-28cd2c56141d)] -> css selector: form[role='search'] button[type='submit']]</small> </font> </div></span>
+                <span class="reporter-method-output"><div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 26 May 12:12:25 326 - Page URL:: http://development.eu.puma.com/en/search?q=shoes</small> </font> </div></span>
+                <span class="reporter-method-output"><div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 26 May 12:12:25 608 - Element is displayed:: [[RemoteWebDriver: firefox on WINDOWS (c7ef469f-1592-4fa3-9ee4-28cd2c56141d)] -> css selector: ul[id='search-result-items'] li[class*='grid-tile']]</small> </font> </div></span>
+                <span class="reporter-method-output"><div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 26 May 12:12:26 094 - Element is displayed:: [[RemoteWebDriver: firefox on WINDOWS (c7ef469f-1592-4fa3-9ee4-28cd2c56141d)] -> css selector: ul[id='search-result-items'] li[class*='grid-tile']]</small> </font> </div></span>
+                <span class="reporter-method-output"><div class="test-message">&emsp;Step 2. Searched Product SKU: Shoes!</div></span>
+                <span class="reporter-method-output"><div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 26 May 12:13:35 240 - Page URL:: http://development.eu.puma.com/en/pd/suede-tricks-kids%e2%80%99-trainers/361129.html?dwvar_361129_color=black-pink%20glo#q=shoes&start=1</small> </font> </div></span>
+                <span class="reporter-method-output"><div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 26 May 12:13:41 495 - Page URL:: http://development.eu.puma.com/en/pd/suede-tricks-kids%e2%80%99-trainers/361129.html?dwvar_361129_color=black-pink%20glo#q=shoes&start=1</small> </font> </div></span>
+                <span class="reporter-method-output"><div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 26 May 12:13:46 548 - Page URL:: http://development.eu.puma.com/en/pd/suede-tricks-kids%e2%80%99-trainers/361129.html?dwvar_361129_color=black-pink%20glo#q=shoes&start=1</small> </font> </div></span>
+                <span class="reporter-method-output"><div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 26 May 12:13:49 458 - Page URL:: http://development.eu.puma.com/en/pd/suede-tricks-kids%e2%80%99-trainers/361129.html?dwvar_361129_color=black-pink%20glo#q=shoes&start=1</small> </font> </div></span>
+                <span class="reporter-method-output"><div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 26 May 12:13:54 187 - Page URL:: http://development.eu.puma.com/en/pd/suede-tricks-kids%e2%80%99-trainers/361129.html?dwvar_361129_color=black-pink%20glo#q=shoes&start=1</small> </font> </div></span>
+                <span class="reporter-method-output"><div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 26 May 12:13:54 445 - Element is displayed:: [[RemoteWebDriver: firefox on WINDOWS (c7ef469f-1592-4fa3-9ee4-28cd2c56141d)] -> css selector: button[id='add-to-cart']]</small> </font> </div></span>
+                <span class="reporter-method-output"><div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 26 May 12:13:54 933 - Element is displayed:: [[RemoteWebDriver: firefox on WINDOWS (c7ef469f-1592-4fa3-9ee4-28cd2c56141d)] -> css selector: div[class='mini-cart-total']]</small> </font> </div></span>
+                <span class="reporter-method-output"><div class="test-message">&emsp;Step 3. Added Item to the Bag [Name: SUEDE TRICKS KIDS’ TRAINERS | SKU: 361129_01]</div></span>
+                <span class="reporter-method-output"><div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 26 May 12:13:55 361 - Element is displayed:: [[RemoteWebDriver: firefox on WINDOWS (c7ef469f-1592-4fa3-9ee4-28cd2c56141d)] -> css selector: div[class='mini-cart-total']]</small> </font> </div></span>
+                <span class="reporter-method-output"><div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 26 May 12:14:27 120 - Page URL:: https://development.eu.puma.com/en/cart</small> </font> </div></span>
+                <span class="reporter-method-output"><div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 26 May 12:14:27 476 - Element is displayed:: [[RemoteWebDriver: firefox on WINDOWS (c7ef469f-1592-4fa3-9ee4-28cd2c56141d)] -> css selector: form[id='cart-items-form']]</small> </font> </div></span>
+                <span class="reporter-method-output"><div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 26 May 12:14:27 916 - Element is displayed:: [[RemoteWebDriver: firefox on WINDOWS (c7ef469f-1592-4fa3-9ee4-28cd2c56141d)] -> css selector: form[id='cart-items-form']]</small> </font> </div></span>
+                <span class="reporter-method-output"><div class="test-message">&emsp;Step 4. Navigated to Shopping Bag Page!</div></span>
+                <span class="reporter-method-output"><div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 26 May 12:14:30 442 - Page URL:: https://development.eu.puma.com/en/cart</small> </font> </div></span>
+                <span class="reporter-method-output"><div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 26 May 12:14:30 675 - Element is displayed:: [[RemoteWebDriver: firefox on WINDOWS (c7ef469f-1592-4fa3-9ee4-28cd2c56141d)] -> css selector: div[class*='cart-footer'] button[name*='checkoutCart']]</small> </font> </div></span>
+                <span class="reporter-method-output"><div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 26 May 12:14:55 507 - Page URL:: https://development.eu.puma.com/en/checkout/start</small> </font> </div></span>
+                <span class="reporter-method-output"><div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 26 May 12:14:56 136 - Element is displayed:: [[RemoteWebDriver: firefox on WINDOWS (c7ef469f-1592-4fa3-9ee4-28cd2c56141d)] -> css selector: button[name*='login']]</small> </font> </div></span>
+                <span class="reporter-method-output"><div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 26 May 12:14:56 951 - Element is displayed:: [[RemoteWebDriver: firefox on WINDOWS (c7ef469f-1592-4fa3-9ee4-28cd2c56141d)] -> css selector: button[name*='login']]</small> </font> </div></span>
+                <span class="reporter-method-output"><div class="test-message">&emsp;Step 5. Navigated to Checkout Page!</div></span>
+                <span class="reporter-method-output"><div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 26 May 12:14:59 408 - Element is displayed:: [[RemoteWebDriver: firefox on WINDOWS (c7ef469f-1592-4fa3-9ee4-28cd2c56141d)] -> css selector: button[name*='unregistered']]</small> </font> </div></span>
+                <span class="reporter-method-output"><div class="test-message">&emsp;Step 6. Navigated to Guest Checkout Page!</div></span>
+                <span class="reporter-method-output"><div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 26 May 12:15:53 127 - Page URL:: https://development.eu.puma.com/en/checkout/start?dwcont=c1428184247</small> </font> </div></span>
+                <span class="reporter-method-output"><div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 26 May 12:15:53 410 - Element is displayed:: [[RemoteWebDriver: firefox on WINDOWS (c7ef469f-1592-4fa3-9ee4-28cd2c56141d)] -> css selector: input[id*='firstName']]</small> </font> </div></span>
+                <span class="reporter-method-output"><div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 26 May 12:16:00 242 - Page URL:: https://development.eu.puma.com/en/checkout/start?dwcont=c1428184247</small> </font> </div></span>
+                <span class="reporter-method-output"><div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 26 May 12:16:00 510 - Element is displayed:: [[RemoteWebDriver: firefox on WINDOWS (c7ef469f-1592-4fa3-9ee4-28cd2c56141d)] -> css selector: input[id*='lastName']]</small> </font> </div></span>
+                <span class="reporter-method-output"><div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 26 May 12:16:05 407 - Page URL:: https://development.eu.puma.com/en/checkout/start?dwcont=c1428184247</small> </font> </div></span>
+                <span class="reporter-method-output"><div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 26 May 12:16:06 076 - Element is displayed:: [[RemoteWebDriver: firefox on WINDOWS (c7ef469f-1592-4fa3-9ee4-28cd2c56141d)] -> css selector: input[id*='address1']]</small> </font> </div></span>
+                <span class="reporter-method-output"><div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 26 May 12:16:15 762 - Page URL:: https://development.eu.puma.com/en/checkout/start?dwcont=c1428184247</small> </font> </div></span>
+                <span class="reporter-method-output"><div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 26 May 12:16:16 106 - Element is displayed:: [[RemoteWebDriver: firefox on WINDOWS (c7ef469f-1592-4fa3-9ee4-28cd2c56141d)] -> css selector: input[id*='suite']]</small> </font> </div></span>
+                <span class="reporter-method-output"><div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 26 May 12:16:21 433 - Page URL:: https://development.eu.puma.com/en/checkout/start?dwcont=c1428184247</small> </font> </div></span>
+                <span class="reporter-method-output"><div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 26 May 12:16:21 621 - Element is displayed:: [[RemoteWebDriver: firefox on WINDOWS (c7ef469f-1592-4fa3-9ee4-28cd2c56141d)] -> css selector: input[id*='zip']]</small> </font> </div></span>
+                <span class="reporter-method-output"><div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 26 May 12:16:25 248 - Page URL:: https://development.eu.puma.com/en/checkout/start?dwcont=c1428184247</small> </font> </div></span>
+                <span class="reporter-method-output"><div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 26 May 12:16:25 435 - Element is displayed:: [[RemoteWebDriver: firefox on WINDOWS (c7ef469f-1592-4fa3-9ee4-28cd2c56141d)] -> css selector: input[id*='city']]</small> </font> </div></span>
+                <span class="reporter-method-output"><div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 26 May 12:16:36 197 - Page URL:: https://development.eu.puma.com/en/checkout/start?dwcont=c1428184247</small> </font> </div></span>
+                <span class="reporter-method-output"><div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 26 May 12:16:36 761 - Element is displayed:: [[RemoteWebDriver: firefox on WINDOWS (c7ef469f-1592-4fa3-9ee4-28cd2c56141d)] -> css selector: input[id*='emailAddress']]</small> </font> </div></span>
+                <span class="reporter-method-output"><div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 26 May 12:16:41 085 - Page URL:: https://development.eu.puma.com/en/checkout/start?dwcont=c1428184247</small> </font> </div></span>
+                <span class="reporter-method-output"><div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 26 May 12:16:41 220 - Element is displayed:: [[RemoteWebDriver: firefox on WINDOWS (c7ef469f-1592-4fa3-9ee4-28cd2c56141d)] -> css selector: button[data-id*='countries_country']]</small> </font> </div></span>
+                <span class="reporter-method-output"><div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 26 May 12:16:46 137 - Page URL:: https://development.eu.puma.com/en/checkout/start?dwcont=c1428184247</small> </font> </div></span>
+                <span class="reporter-method-output"><div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 26 May 12:16:46 307 - Element is displayed:: [[RemoteWebDriver: firefox on WINDOWS (c7ef469f-1592-4fa3-9ee4-28cd2c56141d)] -> css selector: div[class*='country'][class*='open'] ul[class='dropdown-menu inner selectpicker'] li[rel='10']]</small> </font> </div></span>
+                <span class="reporter-method-output"><div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 26 May 12:17:28 970 - Page URL:: https://development.eu.puma.com/en/checkout/start?dwcont=c1428184247</small> </font> </div></span>
+                <span class="reporter-method-output"><div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 26 May 12:17:29 147 - Element is displayed:: [[RemoteWebDriver: firefox on WINDOWS (c7ef469f-1592-4fa3-9ee4-28cd2c56141d)] -> css selector: input[id*='emailConfirm']]</small> </font> </div></span>
+                <span class="reporter-method-output"><div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 26 May 12:17:33 790 - Page URL:: https://development.eu.puma.com/en/checkout/start?dwcont=c1428184247</small> </font> </div></span>
+                <span class="reporter-method-output"><div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 26 May 12:18:24 972 - Element is displayed:: [[RemoteWebDriver: firefox on WINDOWS (c7ef469f-1592-4fa3-9ee4-28cd2c56141d)] -> css selector: label[for='is-PAYMENTOPERATOR_CREDIT']]</small> </font> </div></span>
+                <span class="reporter-method-output"><div class="test-message">&emsp;Step 7. Entered Shipping/Payment Address Information and Proceeded to Payment Page!</div></span>
+                <span class="reporter-method-output"><div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 26 May 12:18:25 734 - Element is displayed:: [[RemoteWebDriver: firefox on WINDOWS (c7ef469f-1592-4fa3-9ee4-28cd2c56141d)] -> css selector: label[for='is-PAYMENTOPERATOR_CREDIT']]</small> </font> </div></span>
+                <span class="reporter-method-output"><div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 26 May 12:18:26 728 - Element is displayed:: [[RemoteWebDriver: firefox on WINDOWS (c7ef469f-1592-4fa3-9ee4-28cd2c56141d)] -> css selector: button[name*='billing_save']]</small> </font> </div></span>
+                <span class="reporter-method-output"><div class="test-message">&emsp;Step 8. Selected CC Payment!</div></span>
+                <span class="reporter-method-output"><div class="test-message">&emsp;Step 9. Proceeded to Order Review Page!</div></span>
+                <span class="reporter-method-output"><div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 26 May 12:18:49 847 - Element is displayed:: [[RemoteWebDriver: firefox on WINDOWS (c7ef469f-1592-4fa3-9ee4-28cd2c56141d)] -> css selector: button[name*='submit']]</small> </font> </div></span>
+                <span class="reporter-method-output"><div class="test-message">&emsp;Step 10. Submitted Order!</div></span>
+                <span class="reporter-method-output"><div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 26 May 12:19:29 291 - Element is displayed:: [[RemoteWebDriver: firefox on WINDOWS (c7ef469f-1592-4fa3-9ee4-28cd2c56141d)] -> css selector: select[name='KKName']]</small> </font> </div></span>
+                <span class="reporter-method-output"><div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 26 May 12:19:32 223 - Element is displayed:: [[RemoteWebDriver: firefox on WINDOWS (c7ef469f-1592-4fa3-9ee4-28cd2c56141d)] -> css selector: input[name='KKnr']]</small> </font> </div></span>
+                <span class="reporter-method-output"><div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 26 May 12:19:33 621 - Element is displayed:: [[RemoteWebDriver: firefox on WINDOWS (c7ef469f-1592-4fa3-9ee4-28cd2c56141d)] -> css selector: select[name='KKMonth']]</small> </font> </div></span>
+                <span class="reporter-method-output"><div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 26 May 12:19:35 545 - Element is displayed:: [[RemoteWebDriver: firefox on WINDOWS (c7ef469f-1592-4fa3-9ee4-28cd2c56141d)] -> css selector: select[name='KKYear']]</small> </font> </div></span>
+                <span class="reporter-method-output"><div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 26 May 12:19:37 531 - Element is displayed:: [[RemoteWebDriver: firefox on WINDOWS (c7ef469f-1592-4fa3-9ee4-28cd2c56141d)] -> css selector: input[name='cccvc']]</small> </font> </div></span>
+                <span class="reporter-method-output"><div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 26 May 12:19:38 785 - Element is displayed:: [[RemoteWebDriver: firefox on WINDOWS (c7ef469f-1592-4fa3-9ee4-28cd2c56141d)] -> css selector: input[value='Confirm']]</small> </font> </div></span>
+                <span class="reporter-method-output"><div class="test-message">&emsp;Step 11. Order Placed [Order Number: Order Number: 00000006832]!&emsp;<a href=".\ScreenShot\tcPUMADemo01_3.png" target="_blank" >[ScreenShot]</a></div></span>
+                <span class="reporter-method-output"><div class="test-message">&emsp;Step-12: Order Placed Successfully!!&emsp;<a href=".\ScreenShot\tcPUMADemo01_4.png" target="_blank" >[ScreenShot]</a></div></span>
+                <span class="reporter-method-output"><div class="test-message">&emsp;-- Order Info [ Product Name: SUEDE TRICKS KIDS’ TRAINERS || Product Sales Price: € 60,00 || Product SKU: 361129_01 || Payment Type: MasterCard || Card #: 5555555555554444 ].</div></span>
+                <span class="reporter-method-output"><div class="test-result"><br><font color="green"><strong> Test Passed.  </strong></font> </div>&emsp;</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">tcPUMADemo01((Browser: chrome, Hub: aspire512, Node: LOCALHOST), chrome_XP, https://storefront:puma123@developmen...)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">&emsp;<div class="test-title"> <strong><font size = "3" color = "#000080">PUMA PoC - End To End Scenario<small><b><i>[Chrome_Windows || PUMA ]</b></i></small></font> </strong> </div>&emsp;<div><strong>Steps:</strong></div><!-- Report -->&emsp;</span>
+                <span class="reporter-method-output"><div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 26 May 12:09:29 779 - Page URL:: data:,</small> </font> </div></span>
+                <span class="reporter-method-output"><div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 26 May 12:10:23 433 - Page URL:: https://storefront:puma123@development.eu.puma.com/</small> </font> </div></span>
+                <span class="reporter-method-output"><div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 26 May 12:10:25 507 - Element is displayed:: [[RemoteWebDriver: chrome on XP (816a3392-6c40-4881-9cb3-be4512aee624)] -> css selector: form[role='search'] button[type='submit']]</small> </font> </div></span>
+                <span class="reporter-method-output"><div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 26 May 12:10:36 358 - Page URL:: https://storefront:puma123@development.eu.puma.com/</small> </font> </div></span>
+                <span class="reporter-method-output"><div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 26 May 12:10:46 101 - Page URL:: https://storefront:puma123@development.eu.puma.com/</small> </font> </div></span>
+                <span class="reporter-method-output"><div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 26 May 12:10:46 587 - Element is displayed:: [[RemoteWebDriver: chrome on XP (816a3392-6c40-4881-9cb3-be4512aee624)] -> css selector: form[role='search'] button[type='submit']]</small> </font> </div></span>
+                <span class="reporter-method-output"><div class="test-message">&emsp;Step 1. Navigated to 'PUMA' Home Page!</div></span>
+                <span class="reporter-method-output"><div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 26 May 12:10:46 961 - Element is displayed:: [[RemoteWebDriver: chrome on XP (816a3392-6c40-4881-9cb3-be4512aee624)] -> css selector: input[name='q']]</small> </font> </div></span>
+                <span class="reporter-method-output"><div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 26 May 12:10:48 589 - Element is displayed:: [[RemoteWebDriver: chrome on XP (816a3392-6c40-4881-9cb3-be4512aee624)] -> css selector: form[role='search'] button[type='submit']]</small> </font> </div></span>
+                <span class="reporter-method-output"><div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 26 May 12:11:43 843 - Page URL:: http://development.eu.puma.com/en/search?q=shoes</small> </font> </div></span>
+                <span class="reporter-method-output"><div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 26 May 12:11:44 363 - Element is displayed:: [[RemoteWebDriver: chrome on XP (816a3392-6c40-4881-9cb3-be4512aee624)] -> css selector: ul[id='search-result-items'] li[class*='grid-tile']]</small> </font> </div></span>
+                <span class="reporter-method-output"><div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 26 May 12:11:44 565 - Element is displayed:: [[RemoteWebDriver: chrome on XP (816a3392-6c40-4881-9cb3-be4512aee624)] -> css selector: ul[id='search-result-items'] li[class*='grid-tile']]</small> </font> </div></span>
+                <span class="reporter-method-output"><div class="test-message">&emsp;Step 2. Searched Product SKU: Shoes!</div></span>
+                <span class="reporter-method-output"><div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 26 May 12:15:18 114 - Page URL:: http://development.eu.puma.com/en/pd/suede-classic-coloured-trainers/360850.html?dwvar_360850_color=columbia-surf%20the%20web#q=shoes&start=1</small> </font> </div></span>
+                <span class="reporter-method-output"><div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 26 May 12:15:22 177 - Page URL:: http://development.eu.puma.com/en/pd/suede-classic-coloured-trainers/360850.html?dwvar_360850_color=columbia-surf%20the%20web#q=shoes&start=1</small> </font> </div></span>
+                <span class="reporter-method-output"><div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 26 May 12:15:25 144 - Page URL:: http://development.eu.puma.com/en/pd/suede-classic-coloured-trainers/360850.html?dwvar_360850_color=columbia-surf%20the%20web#q=shoes&start=1</small> </font> </div></span>
+                <span class="reporter-method-output"><div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 26 May 12:15:27 673 - Page URL:: http://development.eu.puma.com/en/pd/suede-classic-coloured-trainers/360850.html?dwvar_360850_color=columbia-surf%20the%20web#q=shoes&start=1</small> </font> </div></span>
+                <span class="reporter-method-output"><div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 26 May 12:15:32 385 - Page URL:: http://development.eu.puma.com/en/pd/suede-classic-coloured-trainers/360850.html?dwvar_360850_color=columbia-surf%20the%20web#q=shoes&start=1</small> </font> </div></span>
+                <span class="reporter-method-output"><div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 26 May 12:15:32 682 - Element is displayed:: [[RemoteWebDriver: chrome on XP (816a3392-6c40-4881-9cb3-be4512aee624)] -> css selector: button[id='add-to-cart']]</small> </font> </div></span>
+                <span class="reporter-method-output"><div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 26 May 12:15:32 963 - Element is displayed:: [[RemoteWebDriver: chrome on XP (816a3392-6c40-4881-9cb3-be4512aee624)] -> css selector: div[class='mini-cart-total']]</small> </font> </div></span>
+                <span class="reporter-method-output"><div class="test-message">&emsp;Step 3. Added Item to the Bag [Name: SUEDE CLASSIC COLOURED TRAINERS | SKU: 361129_01]</div></span>
+                <span class="reporter-method-output"><div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 26 May 12:15:33 263 - Element is displayed:: [[RemoteWebDriver: chrome on XP (816a3392-6c40-4881-9cb3-be4512aee624)] -> css selector: div[class='mini-cart-total']]</small> </font> </div></span>
+                <span class="reporter-method-output"><div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 26 May 12:15:55 035 - Page URL:: https://development.eu.puma.com/en/cart</small> </font> </div></span>
+                <span class="reporter-method-output"><div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 26 May 12:15:55 337 - Element is displayed:: [[RemoteWebDriver: chrome on XP (816a3392-6c40-4881-9cb3-be4512aee624)] -> css selector: form[id='cart-items-form']]</small> </font> </div></span>
+                <span class="reporter-method-output"><div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 26 May 12:15:55 642 - Element is displayed:: [[RemoteWebDriver: chrome on XP (816a3392-6c40-4881-9cb3-be4512aee624)] -> css selector: form[id='cart-items-form']]</small> </font> </div></span>
+                <span class="reporter-method-output"><div class="test-message">&emsp;Step 4. Navigated to Shopping Bag Page!</div></span>
+                <span class="reporter-method-output"><div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 26 May 12:16:02 049 - Page URL:: https://development.eu.puma.com/en/cart</small> </font> </div></span>
+                <span class="reporter-method-output"><div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 26 May 12:16:02 676 - Element is displayed:: [[RemoteWebDriver: chrome on XP (816a3392-6c40-4881-9cb3-be4512aee624)] -> css selector: div[class*='cart-footer'] button[name*='checkoutCart']]</small> </font> </div></span>
+                <span class="reporter-method-output"><div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 26 May 12:16:22 267 - Page URL:: https://development.eu.puma.com/en/checkout/start</small> </font> </div></span>
+                <span class="reporter-method-output"><div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 26 May 12:16:23 160 - Element is displayed:: [[RemoteWebDriver: chrome on XP (816a3392-6c40-4881-9cb3-be4512aee624)] -> css selector: button[name*='login']]</small> </font> </div></span>
+                <span class="reporter-method-output"><div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 26 May 12:16:23 916 - Element is displayed:: [[RemoteWebDriver: chrome on XP (816a3392-6c40-4881-9cb3-be4512aee624)] -> css selector: button[name*='login']]</small> </font> </div></span>
+                <span class="reporter-method-output"><div class="test-message">&emsp;Step 5. Navigated to Checkout Page!</div></span>
+                <span class="reporter-method-output"><div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 26 May 12:16:25 289 - Element is displayed:: [[RemoteWebDriver: chrome on XP (816a3392-6c40-4881-9cb3-be4512aee624)] -> css selector: button[name*='unregistered']]</small> </font> </div></span>
+                <span class="reporter-method-output"><div class="test-message">&emsp;Step 6. Navigated to Guest Checkout Page!</div></span>
+                <span class="reporter-method-output"><div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 26 May 12:17:27 007 - Page URL:: https://development.eu.puma.com/en/checkout/start?dwcont=c1428191793</small> </font> </div></span>
+                <span class="reporter-method-output"><div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 26 May 12:17:27 489 - Element is displayed:: [[RemoteWebDriver: chrome on XP (816a3392-6c40-4881-9cb3-be4512aee624)] -> css selector: input[id*='firstName']]</small> </font> </div></span>
+                <span class="reporter-method-output"><div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 26 May 12:17:35 624 - Page URL:: https://development.eu.puma.com/en/checkout/start?dwcont=c1428191793</small> </font> </div></span>
+                <span class="reporter-method-output"><div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 26 May 12:17:35 815 - Element is displayed:: [[RemoteWebDriver: chrome on XP (816a3392-6c40-4881-9cb3-be4512aee624)] -> css selector: input[id*='lastName']]</small> </font> </div></span>
+                <span class="reporter-method-output"><div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 26 May 12:17:38 257 - Page URL:: https://development.eu.puma.com/en/checkout/start?dwcont=c1428191793</small> </font> </div></span>
+                <span class="reporter-method-output"><div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 26 May 12:17:38 483 - Element is displayed:: [[RemoteWebDriver: chrome on XP (816a3392-6c40-4881-9cb3-be4512aee624)] -> css selector: input[id*='address1']]</small> </font> </div></span>
+                <span class="reporter-method-output"><div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 26 May 12:17:43 194 - Page URL:: https://development.eu.puma.com/en/checkout/start?dwcont=c1428191793</small> </font> </div></span>
+                <span class="reporter-method-output"><div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 26 May 12:17:43 426 - Element is displayed:: [[RemoteWebDriver: chrome on XP (816a3392-6c40-4881-9cb3-be4512aee624)] -> css selector: input[id*='suite']]</small> </font> </div></span>
+                <span class="reporter-method-output"><div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 26 May 12:17:46 390 - Page URL:: https://development.eu.puma.com/en/checkout/start?dwcont=c1428191793</small> </font> </div></span>
+                <span class="reporter-method-output"><div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 26 May 12:17:46 982 - Element is displayed:: [[RemoteWebDriver: chrome on XP (816a3392-6c40-4881-9cb3-be4512aee624)] -> css selector: input[id*='zip']]</small> </font> </div></span>
+                <span class="reporter-method-output"><div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 26 May 12:17:49 536 - Page URL:: https://development.eu.puma.com/en/checkout/start?dwcont=c1428191793</small> </font> </div></span>
+                <span class="reporter-method-output"><div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 26 May 12:17:49 790 - Element is displayed:: [[RemoteWebDriver: chrome on XP (816a3392-6c40-4881-9cb3-be4512aee624)] -> css selector: input[id*='city']]</small> </font> </div></span>
+                <span class="reporter-method-output"><div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 26 May 12:17:52 404 - Page URL:: https://development.eu.puma.com/en/checkout/start?dwcont=c1428191793</small> </font> </div></span>
+                <span class="reporter-method-output"><div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 26 May 12:17:52 606 - Element is displayed:: [[RemoteWebDriver: chrome on XP (816a3392-6c40-4881-9cb3-be4512aee624)] -> css selector: input[id*='emailAddress']]</small> </font> </div></span>
+                <span class="reporter-method-output"><div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 26 May 12:18:04 517 - Page URL:: https://development.eu.puma.com/en/checkout/start?dwcont=c1428191793</small> </font> </div></span>
+                <span class="reporter-method-output"><div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 26 May 12:18:04 662 - Element is displayed:: [[RemoteWebDriver: chrome on XP (816a3392-6c40-4881-9cb3-be4512aee624)] -> css selector: button[data-id*='countries_country']]</small> </font> </div></span>
+                <span class="reporter-method-output"><div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 26 May 12:18:06 796 - Page URL:: https://development.eu.puma.com/en/checkout/start?dwcont=c1428191793</small> </font> </div></span>
+                <span class="reporter-method-output"><div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 26 May 12:18:06 991 - Element is displayed:: [[RemoteWebDriver: chrome on XP (816a3392-6c40-4881-9cb3-be4512aee624)] -> css selector: div[class*='country'][class*='open'] ul[class='dropdown-menu inner selectpicker'] li[rel='10']]</small> </font> </div></span>
+                <span class="reporter-method-output"><div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 26 May 12:18:15 970 - Page URL:: https://development.eu.puma.com/en/checkout/start?dwcont=c1428191793</small> </font> </div></span>
+                <span class="reporter-method-output"><div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 26 May 12:18:16 425 - Element is displayed:: [[RemoteWebDriver: chrome on XP (816a3392-6c40-4881-9cb3-be4512aee624)] -> css selector: input[id*='emailConfirm']]</small> </font> </div></span>
+                <span class="reporter-method-output"><div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 26 May 12:18:27 474 - Page URL:: https://development.eu.puma.com/en/checkout/start?dwcont=c1428191793</small> </font> </div></span>
+                <span class="reporter-method-output"><div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 26 May 12:18:50 875 - Element is displayed:: [[RemoteWebDriver: chrome on XP (816a3392-6c40-4881-9cb3-be4512aee624)] -> css selector: label[for='is-PAYMENTOPERATOR_CREDIT']]</small> </font> </div></span>
+                <span class="reporter-method-output"><div class="test-message">&emsp;Step 7. Entered Shipping/Payment Address Information and Proceeded to Payment Page!</div></span>
+                <span class="reporter-method-output"><div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 26 May 12:18:51 130 - Element is displayed:: [[RemoteWebDriver: chrome on XP (816a3392-6c40-4881-9cb3-be4512aee624)] -> css selector: label[for='is-PAYMENTOPERATOR_CREDIT']]</small> </font> </div></span>
+                <span class="reporter-method-output"><div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 26 May 12:18:52 667 - Element is displayed:: [[RemoteWebDriver: chrome on XP (816a3392-6c40-4881-9cb3-be4512aee624)] -> css selector: button[name*='billing_save']]</small> </font> </div></span>
+                <span class="reporter-method-output"><div class="test-message">&emsp;Step 8. Selected CC Payment!</div></span>
+                <span class="reporter-method-output"><div class="test-message">&emsp;Step 9. Proceeded to Order Review Page!</div></span>
+                <span class="reporter-method-output"><div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 26 May 12:19:06 829 - Element is displayed:: [[RemoteWebDriver: chrome on XP (816a3392-6c40-4881-9cb3-be4512aee624)] -> css selector: button[name*='submit']]</small> </font> </div></span>
+                <span class="reporter-method-output"><div class="test-message">&emsp;Step 10. Submitted Order!</div></span>
+                <span class="reporter-method-output"><div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 26 May 12:19:31 460 - Element is displayed:: [[RemoteWebDriver: chrome on XP (816a3392-6c40-4881-9cb3-be4512aee624)] -> css selector: select[name='KKName']]</small> </font> </div></span>
+                <span class="reporter-method-output"><div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 26 May 12:19:34 148 - Element is displayed:: [[RemoteWebDriver: chrome on XP (816a3392-6c40-4881-9cb3-be4512aee624)] -> css selector: input[name='KKnr']]</small> </font> </div></span>
+                <span class="reporter-method-output"><div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 26 May 12:19:37 643 - Element is displayed:: [[RemoteWebDriver: chrome on XP (816a3392-6c40-4881-9cb3-be4512aee624)] -> css selector: select[name='KKMonth']]</small> </font> </div></span>
+                <span class="reporter-method-output"><div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 26 May 12:19:40 383 - Element is displayed:: [[RemoteWebDriver: chrome on XP (816a3392-6c40-4881-9cb3-be4512aee624)] -> css selector: select[name='KKYear']]</small> </font> </div></span>
+                <span class="reporter-method-output"><div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 26 May 12:19:43 423 - Element is displayed:: [[RemoteWebDriver: chrome on XP (816a3392-6c40-4881-9cb3-be4512aee624)] -> css selector: input[name='cccvc']]</small> </font> </div></span>
+                <span class="reporter-method-output"><div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 26 May 12:19:45 480 - Element is displayed:: [[RemoteWebDriver: chrome on XP (816a3392-6c40-4881-9cb3-be4512aee624)] -> css selector: input[value='Confirm']]</small> </font> </div></span>
+                <span class="reporter-method-output"><div class="test-message">&emsp;Step 11. Order Placed [Order Number: Order Number: 00000006834]!&emsp;<a href=".\ScreenShot\tcPUMADemo01_2.png" target="_blank" >[ScreenShot]</a></div></span>
+                <span class="reporter-method-output"><div class="test-result"><br><font color="red"><strong> Test Failed. Order Placed not available in Order Summary Page </strong></font> <a href=".\ScreenShot\tcPUMADemo01_6.png" target="_blank" >[ScreenShot]</a></div>&emsp;</span>
               </div> <!-- reporter-method-output-div -->
             </div> <!-- reporter-method-div -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
         <div panel-name="ignored-methods-Fluid_PUMA_PoC" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">1 ignored method</span>
+            <span class="header-content">0 ignored methods</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
-            <div class="ignored-class-div">
-              <span class="ignored-class-name">com.SECFramework.testscripts.SearsSmokeTC</span>
-              <div class="ignored-methods-div">
-                <span class="ignored-method-name">tcAddToCart</span>
-                <br/>
-              </div> <!-- ignored-methods-div -->
-            </div> <!-- ignored-class-div -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
         <div panel-name="chronological-Fluid_PUMA_PoC" class="panel">
@@ -309,26 +620,66 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">com.SECFramework.testscripts.SearsSmokeTC</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">com.puma.testscripts.Fluid_PUMA_Demo</div> <!-- chronological-class-name -->
               <div class="configuration-suite before">
                 <span class="method-name">beforeSuite</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-suite before -->
               <div class="configuration-method before">
                 <span class="method-name">beforeMethod</span>
-                <span class="method-start">873 ms</span>
+                <span class="method-start">2062 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">2063 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">2068 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">2072 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-                <span class="method-name">tcAccountCreation((Browser: chrome, Hub: aspire512, Node: LOCALHOST), chrome_XP, https://development-initium-searsca.d...)</span>
-                <span class="method-start">7673 ms</span>
+                <span class="method-name">tcPUMADemo01((Browser: chrome, Hub: aspire512, Node: LOCALHOST), chrome_XP, https://storefront:puma123@developmen...)</span>
+                <span class="method-start">41608 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">tcPUMADemo01((Browser: chrome, Hub: aspire512, Node: LOCALHOST), chrome_XP, https://storefront:puma123@developmen...)</span>
+                <span class="method-start">41767 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">tcPUMADemo01((Browser: firefox, Hub: aspire512, Node: LOCALHOST), firefox_WINDOWS, https://storefront:puma123@dev...)</span>
+                <span class="method-start">61748 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">tcPUMADemo01(Firefox_Windows, https://storefront:puma123@development.eu.puma.com/_PUMA, VISA<>4111111111111111<>0...)</span>
+                <span class="method-start">155752 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
-                <span class="method-name">afterMethod(org.testng.TestRunner@4450d156)</span>
-                <span class="method-start">111740 ms</span>
+                <span class="method-name">afterMethod(org.testng.TestRunner@3c41ed1d)</span>
+                <span class="method-start">155762 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod(org.testng.TestRunner@3c41ed1d)</span>
+                <span class="method-start">723336 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod(org.testng.TestRunner@3c41ed1d)</span>
+                <span class="method-start">723337 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod(org.testng.TestRunner@3c41ed1d)</span>
+                <span class="method-start">725313 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-suite after">
                 <span class="method-name">afterSuite</span>
-                <span class="method-start">111799 ms</span>
+                <span class="method-start">725505 ms</span>
               </div> <!-- configuration-suite after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

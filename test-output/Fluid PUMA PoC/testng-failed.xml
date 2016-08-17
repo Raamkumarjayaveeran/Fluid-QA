@@ -19,7 +19,7 @@
           <include name="afterSuite"/>
           <include name="beforeMethod"/>
           <include name="afterMethod"/>
-          <include name="tcPUMADemo01" invocation-numbers="0 3"/>
+          <include name="tcPUMADemo01" invocation-numbers="1 2 3 0"/>
         </methods>
       </class> <!-- com.puma.testscripts.Fluid_PUMA_Demo -->
     </classes>

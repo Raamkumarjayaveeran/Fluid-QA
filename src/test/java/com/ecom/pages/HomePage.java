@@ -102,7 +102,6 @@ public class HomePage extends LoadableComponent <HomePage> {
 	 * 
 	 * @param textToSearch
 	 *            : Text need to searched on the page
-	 *            
 	 */
 	public CLP_Page searchProduct(String textToSearch) {
 		
@@ -120,18 +119,6 @@ public class HomePage extends LoadableComponent <HomePage> {
 		BrowserActions.clickOnButton(emptybag, driver, "clicking empty bag");
 		return new ShoppingBagPage(driver).get();
 	}
-	
-	/**
-	 * Method used to type the search key in the search box
-	 * 
-	 * @param textToSearch
-	 *            : Text need to searched on the page
-	 *            
-	 */
-public HomePage typeOnSearchField(String textToSearch) {
-		BrowserActions.typeOnTextField(txtSearch, textToSearch, driver, "Search Box");
-		return new HomePage(driver, textToSearch).get();
-		
-}
+
 	
 }// HomePage

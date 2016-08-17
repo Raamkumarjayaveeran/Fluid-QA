@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[&emsp;<div class="test-title"> <strong><font size = "3" color = "#000080">Check whether user able to login  Select UI<small><b><i>[chrome_windows]</b></i></small></font> </strong> </div>&emsp;<div><strong>Steps:</strong></div><!-- Report -->&emsp;]]>
+    </line>
+    <line>
+      <![CDATA[<div class="test-result"><br><font color="green"><strong> Test Passed.  </strong></font> </div>&emsp;]]>
+    </line>
+  </reporter-output>
+  <suite name="SSP PoC" duration-ms="38065" started-at="2016-03-31T10:38:50Z" finished-at="2016-03-31T10:39:28Z">
+    <groups>
+    </groups>
+    <test name="Ecommerce Generic Framework" duration-ms="38065" started-at="2016-03-31T10:38:50Z" finished-at="2016-03-31T10:39:28Z">
+      <class name="com.ecom.testscripts.demo.Ecom_Demo">
+        <test-method status="PASS" signature="init(org.testng.ITestContext)[pri:0, instance:com.ecom.testscripts.demo.Ecom_Demo@1ee9faa]" name="init" is-config="true" duration-ms="0" started-at="2016-03-31T16:08:50Z" finished-at="2016-03-31T16:08:50Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@7551fb]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="tcEcomDemo01(java.lang.String)[pri:0, instance:com.ecom.testscripts.demo.Ecom_Demo@1ee9faa]" name="tcEcomDemo01" duration-ms="15530" started-at="2016-03-31T16:09:12Z" description="Yet to describe site" data-provider="ssBVTDataProvider" finished-at="2016-03-31T16:09:27Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[(Browser: chrome, Hub: ASPIRE791, Node: LOCALHOST), chrome_XP]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[&emsp;<div class="test-title"> <strong><font size = "3" color = "#000080">Check whether user able to login  Select UI<small><b><i>[chrome_windows]</b></i></small></font> </strong> </div>&emsp;<div><strong>Steps:</strong></div><!-- Report -->&emsp;]]>
+            </line>
+            <line>
+              <![CDATA[<div class="test-result"><br><font color="green"><strong> Test Passed.  </strong></font> </div>&emsp;]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tcEcomDemo01 -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.ecom.testscripts.demo.Ecom_Demo@1ee9faa]" name="tearDown" is-config="true" duration-ms="642" started-at="2016-03-31T16:09:27Z" finished-at="2016-03-31T16:09:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=tcEcomDemo01 status=SUCCESS method=Ecom_Demo.tcEcomDemo01(java.lang.String)[pri:0, instance:com.ecom.testscripts.demo.Ecom_Demo@1ee9faa] output=&emsp;<div class="test-title"> <strong><font size = "3" color = "#000080">Check whether user able to login  Select UI<small><b><i>[chrome_windows]</b></i></small></font> </strong> </div>&emsp;<div><strong>Steps:</strong></div><!-- Report -->&emsp;]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.ecom.testscripts.demo.Ecom_Demo -->
+    </test> <!-- Ecommerce Generic Framework -->
+  </suite> <!-- SSP PoC -->
+</testng-results>

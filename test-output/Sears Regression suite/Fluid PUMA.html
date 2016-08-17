@@ -1,0 +1,152 @@
+<html>
+<head>
+<title>TestNG:  Fluid PUMA</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Fluid PUMA</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>1/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Thu Jun 09 11:51:19 IST 2016</td>
+</tr>
+<tr><td>Total time:</td><td>68 seconds (68360 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.SECFramework.testscripts.Account_Details.tcAccountCreation()'><b>tcAccountCreation</b><br>Test class: com.SECFramework.testscripts.Account_Details<br>Test method: PUMA Account page<br>Parameters: (Browser: chrome, Hub: aspire512, Node: LOCALHOST), chrome_XP, https://storefront:puma123@development.eu.puma.com/_PUMA<br/>
+<a href="#Output-1753225976" onClick='toggleBox("Output-1753225976", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1753225976" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1753225976">
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 09 Jun 11:51:24 806 - <b>0</b> - Driver::Get - com.SECFramework.support.WebDriverFactory.get(WebDriverFactory.java:325)</small> </font> </div><br/>
+&emsp;<div class="test-title"> <strong><font size = "3" color = "#000080">Account Creation<small><b><i>[Chrome_windows || PUMA ]</b></i></small></font> </strong> </div>&emsp;<div><strong>Steps:</strong></div><!-- Report -->&emsp;<br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 09 Jun 11:51:25 672 - Page URL:: data:,</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 09 Jun 11:51:25 674 - <b>0</b> - Page Load Wait: (Sync) - com.SECFramework.support.Utils.waitForPageLoad(Utils.java:68)</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 09 Jun 11:51:43 885 - Page URL:: https://storefront:puma123@development.eu.puma.com/</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 09 Jun 11:51:43 887 - <b>0</b> - Page Load Wait: (Sync) - com.SECFramework.support.Utils.waitForPageLoad(Utils.java:68)</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 09 Jun 11:51:44 023 - Element is displayed:: [[RemoteWebDriver: chrome on XP (7e0b4432-ce00-4676-afd0-794fd366bf3e)] -> css selector: div[class*='header-search'] button[class='btn btn-default']]</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 09 Jun 11:51:45 394 - Page URL:: https://storefront:puma123@development.eu.puma.com/</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 09 Jun 11:51:45 396 - <b>0</b> - Page Load Wait: (Sync) - com.SECFramework.support.Utils.waitForPageLoad(Utils.java:68)</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 09 Jun 11:51:46 852 - Page URL:: https://storefront:puma123@development.eu.puma.com/</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 09 Jun 11:51:46 855 - <b>0</b> - Page Load Wait: (Sync) - com.SECFramework.support.Utils.waitForPageLoad(Utils.java:68)</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 09 Jun 11:51:47 036 - Element is displayed:: [[RemoteWebDriver: chrome on XP (7e0b4432-ce00-4676-afd0-794fd366bf3e)] -> css selector: div[class*='header-search'] button[class='btn btn-default']]</small> </font> </div><br/>
+<div class="test-message">&emsp;Step 1. Navigated to 'PUMA' Home Page!</div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 09 Jun 11:51:47 261 - Element is displayed:: [[RemoteWebDriver: chrome on XP (7e0b4432-ce00-4676-afd0-794fd366bf3e)] -> css selector: div[id='header'] li[class='login'] a[title='Sign In']]</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 09 Jun 11:51:53 018 - <b>0</b> - Clicked on the sign in link! - com.SECFramework.pages.HomePage.clickSignIn(HomePage.java:179)</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 09 Jun 11:51:55 394 - Page URL:: https://development.eu.puma.com/en/account</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 09 Jun 11:51:55 396 - <b>0</b> - Page Load Wait: (Sync) - com.SECFramework.support.Utils.waitForPageLoad(Utils.java:68)</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 09 Jun 11:51:55 604 - Element is displayed:: [[RemoteWebDriver: chrome on XP (7e0b4432-ce00-4676-afd0-794fd366bf3e)] -> css selector: h1[class='checkout-header login h6']]</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 09 Jun 11:51:55 721 - Element is displayed:: [[RemoteWebDriver: chrome on XP (7e0b4432-ce00-4676-afd0-794fd366bf3e)] -> css selector: h1[class='checkout-header login h6']]</small> </font> </div><br/>
+<div class="test-message">&emsp;Step 2. Landed on My Account Login page from HomePage&emsp;<a href=".\ScreenShot\tcAccountCreation_1.png" target="_blank" >[ScreenShot]</a></div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 09 Jun 11:51:56 590 - Element is displayed:: [[RemoteWebDriver: chrome on XP (7e0b4432-ce00-4676-afd0-794fd366bf3e)] -> css selector: button[class='btn btn-primary'][value='Create an Account']]</small> </font> </div><br/>
+<div class="test-message">&emsp;Step 3. Navigated to account creation page!&emsp;<a href=".\ScreenShot\tcAccountCreation_2.png" target="_blank" >[ScreenShot]</a></div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 09 Jun 11:52:03 067 - Element is displayed:: [[RemoteWebDriver: chrome on XP (7e0b4432-ce00-4676-afd0-794fd366bf3e)] -> css selector: input[id='dwfrm_profile_customer_lastname']]</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 09 Jun 11:52:04 055 - Page URL:: https://development.eu.puma.com/en/account?dwcont=c1920823882</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 09 Jun 11:52:04 056 - <b>0</b> - Page Load Wait: (Sync) - com.SECFramework.support.Utils.waitForPageLoad(Utils.java:68)</small> </font> </div><br/>
+<div class="test-event"> <font color="brown"> <small> &emsp; &emsp;--- 09 Jun 11:52:04 058 - <b>0</b> - Option not matched - please read Method document to pass correct form of parameter. Try: Type/Click/Select - com.SECFramework.reuseMethods.Account_Util.doAccountOperations(Account_Util.java:71)</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 09 Jun 11:52:04 799 - Page URL:: https://development.eu.puma.com/en/account?dwcont=c1920823882</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 09 Jun 11:52:04 801 - <b>0</b> - Page Load Wait: (Sync) - com.SECFramework.support.Utils.waitForPageLoad(Utils.java:68)</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 09 Jun 11:52:04 931 - Element is displayed:: [[RemoteWebDriver: chrome on XP (7e0b4432-ce00-4676-afd0-794fd366bf3e)] -> css selector: input[id='dwfrm_profile_customer_firstname']]</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 09 Jun 11:52:06 096 - Page URL:: https://development.eu.puma.com/en/account?dwcont=c1920823882</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 09 Jun 11:52:06 097 - <b>0</b> - Page Load Wait: (Sync) - com.SECFramework.support.Utils.waitForPageLoad(Utils.java:68)</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 09 Jun 11:52:06 207 - Element is displayed:: [[RemoteWebDriver: chrome on XP (7e0b4432-ce00-4676-afd0-794fd366bf3e)] -> css selector: input[id='dwfrm_profile_customer_email']]</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 09 Jun 11:52:07 406 - Page URL:: https://development.eu.puma.com/en/account?dwcont=c1920823882</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 09 Jun 11:52:07 407 - <b>0</b> - Page Load Wait: (Sync) - com.SECFramework.support.Utils.waitForPageLoad(Utils.java:68)</small> </font> </div><br/>
+<div class="test-event"> <font color="brown"> <small> &emsp; &emsp;--- 09 Jun 11:52:07 409 - <b>0</b> - Option not matched - please read Method document to pass correct form of parameter. Try: Type/Click/Select - com.SECFramework.reuseMethods.Account_Util.doAccountOperations(Account_Util.java:71)</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 09 Jun 11:52:08 225 - Page URL:: https://development.eu.puma.com/en/account?dwcont=c1920823882</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 09 Jun 11:52:08 226 - <b>0</b> - Page Load Wait: (Sync) - com.SECFramework.support.Utils.waitForPageLoad(Utils.java:68)</small> </font> </div><br/>
+<div class="test-event"> <font color="brown"> <small> &emsp; &emsp;--- 09 Jun 11:52:08 228 - <b>0</b> - Option not matched - please read Method document to pass correct form of parameter. Try: Type/Click/Select - com.SECFramework.reuseMethods.Account_Util.doAccountOperations(Account_Util.java:71)</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 09 Jun 11:52:09 244 - Page URL:: https://development.eu.puma.com/en/account?dwcont=c1920823882</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 09 Jun 11:52:09 246 - <b>0</b> - Page Load Wait: (Sync) - com.SECFramework.support.Utils.waitForPageLoad(Utils.java:68)</small> </font> </div><br/>
+<div class="test-event"> <font color="brown"> <small> &emsp; &emsp;--- 09 Jun 11:52:09 249 - <b>0</b> - Option not matched - please read Method document to pass correct form of parameter. Try: Type/Click/Select - com.SECFramework.reuseMethods.Account_Util.doAccountOperations(Account_Util.java:71)</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 09 Jun 11:52:10 209 - Page URL:: https://development.eu.puma.com/en/account?dwcont=c1920823882</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 09 Jun 11:52:10 211 - <b>0</b> - Page Load Wait: (Sync) - com.SECFramework.support.Utils.waitForPageLoad(Utils.java:68)</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 09 Jun 11:52:10 340 - Element is displayed:: [[RemoteWebDriver: chrome on XP (7e0b4432-ce00-4676-afd0-794fd366bf3e)] -> css selector: input[id='dwfrm_profile_customer_emailconfirm']]</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 09 Jun 11:52:12 213 - Page URL:: https://development.eu.puma.com/en/account?dwcont=c1920823882</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 09 Jun 11:52:12 214 - <b>0</b> - Page Load Wait: (Sync) - com.SECFramework.support.Utils.waitForPageLoad(Utils.java:68)</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 09 Jun 11:52:12 349 - Element is displayed:: [[RemoteWebDriver: chrome on XP (7e0b4432-ce00-4676-afd0-794fd366bf3e)] -> css selector: input[id='dwfrm_profile_login_passwordconfirm']]</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 09 Jun 11:52:13 467 - Page URL:: https://development.eu.puma.com/en/account?dwcont=c1920823882</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 09 Jun 11:52:13 468 - <b>0</b> - Page Load Wait: (Sync) - com.SECFramework.support.Utils.waitForPageLoad(Utils.java:68)</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 09 Jun 11:52:13 683 - Element is displayed:: [[RemoteWebDriver: chrome on XP (7e0b4432-ce00-4676-afd0-794fd366bf3e)] -> css selector: input[id='dwfrm_profile_login_password']]</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 09 Jun 11:52:14 688 - Page URL:: https://development.eu.puma.com/en/account?dwcont=c1920823882</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 09 Jun 11:52:14 689 - <b>0</b> - Page Load Wait: (Sync) - com.SECFramework.support.Utils.waitForPageLoad(Utils.java:68)</small> </font> </div><br/>
+<div class="test-event"> <font color="brown"> <small> &emsp; &emsp;--- 09 Jun 11:52:14 690 - <b>0</b> - Option not matched - please read Method document to pass correct form of parameter. Try: Type/Click/Select - com.SECFramework.reuseMethods.Account_Util.doAccountOperations(Account_Util.java:71)</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 09 Jun 11:52:15 252 - Page URL:: https://development.eu.puma.com/en/account?dwcont=c1920823882</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 09 Jun 11:52:15 253 - <b>0</b> - Page Load Wait: (Sync) - com.SECFramework.support.Utils.waitForPageLoad(Utils.java:68)</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 09 Jun 11:52:15 344 - Element is displayed:: [[RemoteWebDriver: chrome on XP (7e0b4432-ce00-4676-afd0-794fd366bf3e)] -> css selector: button[class='btn btn-primary'][value='Apply']]</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 09 Jun 11:52:24 493 - Page URL:: https://development.eu.puma.com/en/account</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 09 Jun 11:52:24 494 - <b>0</b> - Page Load Wait: (Sync) - com.SECFramework.support.Utils.waitForPageLoad(Utils.java:68)</small> </font> </div><br/>
+<div class="test-event"> <font color="brown"> <small> &emsp; &emsp;--- 09 Jun 11:52:24 495 - <b>0</b> - Option not matched - please read Method document to pass correct form of parameter. Try: Type/Click/Select - com.SECFramework.reuseMethods.Account_Util.doAccountOperations(Account_Util.java:71)</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 09 Jun 11:52:25 221 - Page URL:: https://development.eu.puma.com/en/account</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 09 Jun 11:52:25 222 - <b>0</b> - Page Load Wait: (Sync) - com.SECFramework.support.Utils.waitForPageLoad(Utils.java:68)</small> </font> </div><br/>
+<div class="test-message">&emsp;Step 4.Account has been successfully created!&emsp;<a href=".\ScreenShot\tcAccountCreation_3.png" target="_blank" >[ScreenShot]</a></div><br/>
+</div>
+</td>
+<td></td>
+<td>63</td>
+<td>com.SECFramework.testscripts.Account_Details@340f438e</td></tr>
+</table><p>
+</body>
+</html>

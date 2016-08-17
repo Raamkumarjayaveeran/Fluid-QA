@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="com.puma.testscripts.Fluid_PUMA_Demo">
+      <class name="com.SECFramework.testscripts.SearsSmokeTC">
         <methods>
-          <include name="beforeSuite"/>
+          <include name="tcAccountCreation"/>
           <include name="afterSuite"/>
-          <include name="tcPUMADemo01"/>
+          <include name="beforeSuite"/>
         </methods>
-      </class> <!-- com.puma.testscripts.Fluid_PUMA_Demo -->
+      </class> <!-- com.SECFramework.testscripts.SearsSmokeTC -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

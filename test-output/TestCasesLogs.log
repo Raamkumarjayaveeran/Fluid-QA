@@ -1,389 +1,64 @@
-25-May-2016 11:43:50:154 INFO  [PoolService-2]  
-25-May-2016 11:43:50:165 INFO  [PoolService-2] ****             PUMA PoC - End To End Scenario<small><b><i>[Chrome_Windows || PUMA ]</b></i></small>             ***** 
-25-May-2016 11:43:50:166 INFO  [PoolService-2]  
-25-May-2016 11:43:50:156 INFO  [PoolService-3]  
-25-May-2016 11:43:50:203 INFO  [PoolService-3] ****             PUMA PoC - End To End Scenario<small><b><i>[Chrome_Windows || PUMA ]</b></i></small>             ***** 
-25-May-2016 11:43:50:205 INFO  [PoolService-3]  
-25-May-2016 11:43:50:761 DEBUG [PoolService-2] Page URL:: data:, 
-25-May-2016 11:43:51:106 DEBUG [PoolService-3] Page URL:: data:, 
-25-May-2016 11:44:18:419 DEBUG [PoolService-3] Page URL:: https://storefront:puma123@development.eu.puma.com/ 
-25-May-2016 11:44:18:731 DEBUG [PoolService-3] Element is displayed:: [[RemoteWebDriver: chrome on XP (c419dad9-62af-4a77-972f-db217f08fff8)] -> css selector: form[role='search'] button[type='submit']] 
-25-May-2016 11:44:18:852 DEBUG [PoolService-2] Page URL:: https://storefront:puma123@development.eu.puma.com/ 
-25-May-2016 11:44:19:508 DEBUG [PoolService-2] Element is displayed:: [[RemoteWebDriver: chrome on XP (c07b0287-f6e7-4329-be87-ad194761dd4f)] -> css selector: form[role='search'] button[type='submit']] 
-25-May-2016 11:44:23:675 DEBUG [PoolService-3] Page URL:: https://storefront:puma123@development.eu.puma.com/ 
-25-May-2016 11:44:23:741 DEBUG [PoolService-2] Page URL:: https://storefront:puma123@development.eu.puma.com/ 
-25-May-2016 11:44:29:150 DEBUG [PoolService-3] Page URL:: https://storefront:puma123@development.eu.puma.com/ 
-25-May-2016 11:44:29:409 DEBUG [PoolService-3] Element is displayed:: [[RemoteWebDriver: chrome on XP (c419dad9-62af-4a77-972f-db217f08fff8)] -> css selector: form[role='search'] button[type='submit']] 
-25-May-2016 11:44:29:416 INFO  [PoolService-3] Step 1. Navigated to 'PUMA' Home Page! 
-25-May-2016 11:44:29:720 DEBUG [PoolService-3] Element is displayed:: [[RemoteWebDriver: chrome on XP (c419dad9-62af-4a77-972f-db217f08fff8)] -> css selector: input[name='q']] 
-25-May-2016 11:44:30:820 DEBUG [PoolService-2] Page URL:: https://storefront:puma123@development.eu.puma.com/ 
-25-May-2016 11:44:31:349 DEBUG [PoolService-3] Element is displayed:: [[RemoteWebDriver: chrome on XP (c419dad9-62af-4a77-972f-db217f08fff8)] -> css selector: form[role='search'] button[type='submit']] 
-25-May-2016 11:44:31:881 DEBUG [PoolService-2] Element is displayed:: [[RemoteWebDriver: chrome on XP (c07b0287-f6e7-4329-be87-ad194761dd4f)] -> css selector: form[role='search'] button[type='submit']] 
-25-May-2016 11:44:31:882 INFO  [PoolService-2] Step 1. Navigated to 'PUMA' Home Page! 
-25-May-2016 11:44:32:358 DEBUG [PoolService-2] Element is displayed:: [[RemoteWebDriver: chrome on XP (c07b0287-f6e7-4329-be87-ad194761dd4f)] -> css selector: input[name='q']] 
-25-May-2016 11:44:34:375 DEBUG [PoolService-2] Element is displayed:: [[RemoteWebDriver: chrome on XP (c07b0287-f6e7-4329-be87-ad194761dd4f)] -> css selector: form[role='search'] button[type='submit']] 
-25-May-2016 11:45:08:161 DEBUG [PoolService-2] Page URL:: http://development.eu.puma.com/en/search?q=shoes 
-25-May-2016 11:45:08:469 DEBUG [PoolService-2] Element is displayed:: [[RemoteWebDriver: chrome on XP (c07b0287-f6e7-4329-be87-ad194761dd4f)] -> css selector: ul[id='search-result-items'] li[class*='grid-tile']] 
-25-May-2016 11:45:08:730 DEBUG [PoolService-2] Element is displayed:: [[RemoteWebDriver: chrome on XP (c07b0287-f6e7-4329-be87-ad194761dd4f)] -> css selector: ul[id='search-result-items'] li[class*='grid-tile']] 
-25-May-2016 11:45:08:732 INFO  [PoolService-2] Step 2. Searched Product SKU: Shoes! 
-25-May-2016 11:45:10:057 DEBUG [PoolService-3] Page URL:: http://development.eu.puma.com/en/search?q=shoes 
-25-May-2016 11:45:10:395 DEBUG [PoolService-3] Element is displayed:: [[RemoteWebDriver: chrome on XP (c419dad9-62af-4a77-972f-db217f08fff8)] -> css selector: ul[id='search-result-items'] li[class*='grid-tile']] 
-25-May-2016 11:45:10:906 DEBUG [PoolService-3] Element is displayed:: [[RemoteWebDriver: chrome on XP (c419dad9-62af-4a77-972f-db217f08fff8)] -> css selector: ul[id='search-result-items'] li[class*='grid-tile']] 
-25-May-2016 11:45:10:907 INFO  [PoolService-3] Step 2. Searched Product SKU: Shoes! 
-25-May-2016 11:45:30:809 INFO  [PoolService-0]  
-25-May-2016 11:45:30:810 INFO  [PoolService-0] ****             PUMA PoC - End To End Scenario<small><b><i>[Firefox_Windows || PUMA ]</b></i></small>             ***** 
-25-May-2016 11:45:30:812 INFO  [PoolService-0]  
-25-May-2016 11:45:34:110 DEBUG [PoolService-0] Page URL:: https://go.skype.com/skype.extension.faq 
-25-May-2016 11:45:56:206 DEBUG [PoolService-3] Page URL:: http://development.eu.puma.com/en/pd/suede-classic-coloured-trainers/360850.html?dwvar_360850_color=columbia-surf%20the%20web#q=shoes&start=1 
-25-May-2016 11:45:57:740 DEBUG [PoolService-2] Page URL:: http://development.eu.puma.com/en/pd/suede-classic-coloured-trainers/360850.html?dwvar_360850_color=columbia-surf%20the%20web#q=shoes&start=1 
-25-May-2016 11:46:00:470 DEBUG [PoolService-3] Page URL:: http://development.eu.puma.com/en/pd/suede-classic-coloured-trainers/360850.html?dwvar_360850_color=columbia-surf%20the%20web#q=shoes&start=1 
-25-May-2016 11:46:01:113 DEBUG [PoolService-2] Page URL:: http://development.eu.puma.com/en/pd/suede-classic-coloured-trainers/360850.html?dwvar_360850_color=columbia-surf%20the%20web#q=shoes&start=1 
-25-May-2016 11:46:04:330 DEBUG [PoolService-3] Page URL:: http://development.eu.puma.com/en/pd/suede-classic-coloured-trainers/360850.html?dwvar_360850_color=columbia-surf%20the%20web#q=shoes&start=1 
-25-May-2016 11:46:04:694 DEBUG [PoolService-2] Page URL:: http://development.eu.puma.com/en/pd/suede-classic-coloured-trainers/360850.html?dwvar_360850_color=columbia-surf%20the%20web#q=shoes&start=1 
-25-May-2016 11:46:06:240 DEBUG [PoolService-3] Page URL:: http://development.eu.puma.com/en/pd/suede-classic-coloured-trainers/360850.html?dwvar_360850_color=columbia-surf%20the%20web#q=shoes&start=1 
-25-May-2016 11:46:06:389 DEBUG [PoolService-2] Page URL:: http://development.eu.puma.com/en/pd/suede-classic-coloured-trainers/360850.html?dwvar_360850_color=columbia-surf%20the%20web#q=shoes&start=1 
-25-May-2016 11:46:10:006 DEBUG [PoolService-2] Page URL:: http://development.eu.puma.com/en/pd/suede-classic-coloured-trainers/360850.html?dwvar_360850_color=columbia-surf%20the%20web#q=shoes&start=1 
-25-May-2016 11:46:10:354 DEBUG [PoolService-3] Page URL:: http://development.eu.puma.com/en/pd/suede-classic-coloured-trainers/360850.html?dwvar_360850_color=columbia-surf%20the%20web#q=shoes&start=1 
-25-May-2016 11:46:10:419 DEBUG [PoolService-2] Element is displayed:: [[RemoteWebDriver: chrome on XP (c07b0287-f6e7-4329-be87-ad194761dd4f)] -> css selector: button[id='add-to-cart']] 
-25-May-2016 11:46:10:631 DEBUG [PoolService-3] Element is displayed:: [[RemoteWebDriver: chrome on XP (c419dad9-62af-4a77-972f-db217f08fff8)] -> css selector: button[id='add-to-cart']] 
-25-May-2016 11:46:10:804 DEBUG [PoolService-2] Element is displayed:: [[RemoteWebDriver: chrome on XP (c07b0287-f6e7-4329-be87-ad194761dd4f)] -> css selector: div[class='mini-cart-total']] 
-25-May-2016 11:46:10:805 INFO  [PoolService-2] Step 3. Added Item to the Bag [Name: SUEDE CLASSIC COLOURED TRAINERS | SKU: 360850_05] 
-25-May-2016 11:46:11:050 DEBUG [PoolService-2] Element is displayed:: [[RemoteWebDriver: chrome on XP (c07b0287-f6e7-4329-be87-ad194761dd4f)] -> css selector: div[class='mini-cart-total']] 
-25-May-2016 11:46:11:100 DEBUG [PoolService-3] Element is displayed:: [[RemoteWebDriver: chrome on XP (c419dad9-62af-4a77-972f-db217f08fff8)] -> css selector: div[class='mini-cart-total']] 
-25-May-2016 11:46:11:104 INFO  [PoolService-3] Step 3. Added Item to the Bag [Name: SUEDE CLASSIC COLOURED TRAINERS | SKU: 360850_05] 
-25-May-2016 11:46:12:215 DEBUG [PoolService-3] Element is displayed:: [[RemoteWebDriver: chrome on XP (c419dad9-62af-4a77-972f-db217f08fff8)] -> css selector: div[class='mini-cart-total']] 
-25-May-2016 11:46:26:169 DEBUG [PoolService-0] Page URL:: https://development.eu.puma.com/ 
-25-May-2016 11:46:26:831 DEBUG [PoolService-0] Element is displayed:: [[RemoteWebDriver: firefox on WINDOWS (37a8761c-2eab-4762-848a-2e653ac92d56)] -> css selector: form[role='search'] button[type='submit']] 
-25-May-2016 11:46:32:499 DEBUG [PoolService-2] Page URL:: https://development.eu.puma.com/en/cart 
-25-May-2016 11:46:33:155 DEBUG [PoolService-3] Page URL:: https://development.eu.puma.com/en/cart 
-25-May-2016 11:46:33:305 DEBUG [PoolService-2] Element is displayed:: [[RemoteWebDriver: chrome on XP (c07b0287-f6e7-4329-be87-ad194761dd4f)] -> css selector: form[id='cart-items-form']] 
-25-May-2016 11:46:33:754 DEBUG [PoolService-3] Element is displayed:: [[RemoteWebDriver: chrome on XP (c419dad9-62af-4a77-972f-db217f08fff8)] -> css selector: form[id='cart-items-form']] 
-25-May-2016 11:46:33:775 DEBUG [PoolService-2] Element is displayed:: [[RemoteWebDriver: chrome on XP (c07b0287-f6e7-4329-be87-ad194761dd4f)] -> css selector: form[id='cart-items-form']] 
-25-May-2016 11:46:33:776 INFO  [PoolService-2] Step 4. Navigated to Shopping Bag Page! 
-25-May-2016 11:46:34:244 DEBUG [PoolService-0] Page URL:: https://development.eu.puma.com/ 
-25-May-2016 11:46:34:444 DEBUG [PoolService-3] Element is displayed:: [[RemoteWebDriver: chrome on XP (c419dad9-62af-4a77-972f-db217f08fff8)] -> css selector: form[id='cart-items-form']] 
-25-May-2016 11:46:34:446 INFO  [PoolService-3] Step 4. Navigated to Shopping Bag Page! 
-25-May-2016 11:46:39:313 DEBUG [PoolService-0] Page URL:: https://development.eu.puma.com/ 
-25-May-2016 11:46:39:583 DEBUG [PoolService-0] Element is displayed:: [[RemoteWebDriver: firefox on WINDOWS (37a8761c-2eab-4762-848a-2e653ac92d56)] -> css selector: form[role='search'] button[type='submit']] 
-25-May-2016 11:46:39:584 INFO  [PoolService-0] Step 1. Navigated to 'PUMA' Home Page! 
-25-May-2016 11:46:39:855 DEBUG [PoolService-0] Element is displayed:: [[RemoteWebDriver: firefox on WINDOWS (37a8761c-2eab-4762-848a-2e653ac92d56)] -> css selector: input[name='q']] 
-25-May-2016 11:46:40:639 DEBUG [PoolService-2] Page URL:: https://development.eu.puma.com/en/cart 
-25-May-2016 11:46:41:016 DEBUG [PoolService-2] Element is displayed:: [[RemoteWebDriver: chrome on XP (c07b0287-f6e7-4329-be87-ad194761dd4f)] -> css selector: div[class*='cart-footer'] button[name*='checkoutCart']] 
-25-May-2016 11:46:41:257 DEBUG [PoolService-0] Element is displayed:: [[RemoteWebDriver: firefox on WINDOWS (37a8761c-2eab-4762-848a-2e653ac92d56)] -> css selector: form[role='search'] button[type='submit']] 
-25-May-2016 11:46:41:641 DEBUG [PoolService-3] Page URL:: https://development.eu.puma.com/en/cart 
-25-May-2016 11:46:41:882 DEBUG [PoolService-3] Element is displayed:: [[RemoteWebDriver: chrome on XP (c419dad9-62af-4a77-972f-db217f08fff8)] -> css selector: div[class*='cart-footer'] button[name*='checkoutCart']] 
-25-May-2016 11:46:58:514 DEBUG [PoolService-3] Page URL:: https://development.eu.puma.com/en/checkout/start 
-25-May-2016 11:46:59:260 DEBUG [PoolService-3] Element is displayed:: [[RemoteWebDriver: chrome on XP (c419dad9-62af-4a77-972f-db217f08fff8)] -> css selector: button[name*='login']] 
-25-May-2016 11:47:00:310 DEBUG [PoolService-3] Element is displayed:: [[RemoteWebDriver: chrome on XP (c419dad9-62af-4a77-972f-db217f08fff8)] -> css selector: button[name*='login']] 
-25-May-2016 11:47:00:311 INFO  [PoolService-3] Step 5. Navigated to Checkout Page! 
-25-May-2016 11:47:00:895 DEBUG [PoolService-2] Page URL:: https://development.eu.puma.com/en/checkout/start 
-25-May-2016 11:47:01:519 DEBUG [PoolService-3] Element is displayed:: [[RemoteWebDriver: chrome on XP (c419dad9-62af-4a77-972f-db217f08fff8)] -> css selector: button[name*='unregistered']] 
-25-May-2016 11:47:01:983 DEBUG [PoolService-2] Element is displayed:: [[RemoteWebDriver: chrome on XP (c07b0287-f6e7-4329-be87-ad194761dd4f)] -> css selector: button[name*='login']] 
-25-May-2016 11:47:02:354 DEBUG [PoolService-2] Element is displayed:: [[RemoteWebDriver: chrome on XP (c07b0287-f6e7-4329-be87-ad194761dd4f)] -> css selector: button[name*='login']] 
-25-May-2016 11:47:02:356 INFO  [PoolService-2] Step 5. Navigated to Checkout Page! 
-25-May-2016 11:47:05:957 DEBUG [PoolService-2] Element is displayed:: [[RemoteWebDriver: chrome on XP (c07b0287-f6e7-4329-be87-ad194761dd4f)] -> css selector: button[name*='unregistered']] 
-25-May-2016 11:47:06:237 INFO  [PoolService-2] Step 6. Navigated to Guest Checkout Page! 
-25-May-2016 11:47:46:531 DEBUG [PoolService-0] Page URL:: http://development.eu.puma.com/en/search?q=shoes 
-25-May-2016 11:47:47:063 INFO  [PoolService-3] Step 6. Navigated to Guest Checkout Page! 
-25-May-2016 11:47:47:171 DEBUG [PoolService-0] Element is displayed:: [[RemoteWebDriver: firefox on WINDOWS (37a8761c-2eab-4762-848a-2e653ac92d56)] -> css selector: ul[id='search-result-items'] li[class*='grid-tile']] 
-25-May-2016 11:47:47:883 DEBUG [PoolService-0] Element is displayed:: [[RemoteWebDriver: firefox on WINDOWS (37a8761c-2eab-4762-848a-2e653ac92d56)] -> css selector: ul[id='search-result-items'] li[class*='grid-tile']] 
-25-May-2016 11:47:47:884 INFO  [PoolService-0] Step 2. Searched Product SKU: Shoes! 
-25-May-2016 11:47:51:027 DEBUG [PoolService-2] Page URL:: https://development.eu.puma.com/en/checkout/start?dwcont=c1427479806 
-25-May-2016 11:47:51:152 DEBUG [PoolService-2] Element is displayed:: [[RemoteWebDriver: chrome on XP (c07b0287-f6e7-4329-be87-ad194761dd4f)] -> css selector: input[id*='firstName']] 
-25-May-2016 11:47:54:442 DEBUG [PoolService-3] Page URL:: https://development.eu.puma.com/en/checkout/start?dwcont=c1427480718 
-25-May-2016 11:47:54:866 DEBUG [PoolService-3] Element is displayed:: [[RemoteWebDriver: chrome on XP (c419dad9-62af-4a77-972f-db217f08fff8)] -> css selector: input[id*='firstName']] 
-25-May-2016 11:47:56:775 DEBUG [PoolService-2] Page URL:: https://development.eu.puma.com/en/checkout/start?dwcont=c1427479806 
-25-May-2016 11:47:57:422 DEBUG [PoolService-2] Element is displayed:: [[RemoteWebDriver: chrome on XP (c07b0287-f6e7-4329-be87-ad194761dd4f)] -> css selector: input[id*='lastName']] 
-25-May-2016 11:47:58:731 DEBUG [PoolService-3] Page URL:: https://development.eu.puma.com/en/checkout/start?dwcont=c1427480718 
-25-May-2016 11:47:58:923 DEBUG [PoolService-3] Element is displayed:: [[RemoteWebDriver: chrome on XP (c419dad9-62af-4a77-972f-db217f08fff8)] -> css selector: input[id*='lastName']] 
-25-May-2016 11:47:59:896 DEBUG [PoolService-2] Page URL:: https://development.eu.puma.com/en/checkout/start?dwcont=c1427479806 
-25-May-2016 11:48:00:299 DEBUG [PoolService-2] Element is displayed:: [[RemoteWebDriver: chrome on XP (c07b0287-f6e7-4329-be87-ad194761dd4f)] -> css selector: input[id*='address1']] 
-25-May-2016 11:48:02:191 DEBUG [PoolService-3] Page URL:: https://development.eu.puma.com/en/checkout/start?dwcont=c1427480718 
-25-May-2016 11:48:02:673 DEBUG [PoolService-3] Element is displayed:: [[RemoteWebDriver: chrome on XP (c419dad9-62af-4a77-972f-db217f08fff8)] -> css selector: input[id*='address1']] 
-25-May-2016 11:48:04:789 DEBUG [PoolService-2] Page URL:: https://development.eu.puma.com/en/checkout/start?dwcont=c1427479806 
-25-May-2016 11:48:05:017 DEBUG [PoolService-2] Element is displayed:: [[RemoteWebDriver: chrome on XP (c07b0287-f6e7-4329-be87-ad194761dd4f)] -> css selector: input[id*='suite']] 
-25-May-2016 11:48:06:422 DEBUG [PoolService-3] Page URL:: https://development.eu.puma.com/en/checkout/start?dwcont=c1427480718 
-25-May-2016 11:48:06:711 DEBUG [PoolService-3] Element is displayed:: [[RemoteWebDriver: chrome on XP (c419dad9-62af-4a77-972f-db217f08fff8)] -> css selector: input[id*='suite']] 
-25-May-2016 11:48:08:572 DEBUG [PoolService-2] Page URL:: https://development.eu.puma.com/en/checkout/start?dwcont=c1427479806 
-25-May-2016 11:48:09:069 DEBUG [PoolService-2] Element is displayed:: [[RemoteWebDriver: chrome on XP (c07b0287-f6e7-4329-be87-ad194761dd4f)] -> css selector: input[id*='zip']] 
-25-May-2016 11:48:11:542 DEBUG [PoolService-2] Page URL:: https://development.eu.puma.com/en/checkout/start?dwcont=c1427479806 
-25-May-2016 11:48:11:795 DEBUG [PoolService-3] Page URL:: https://development.eu.puma.com/en/checkout/start?dwcont=c1427480718 
-25-May-2016 11:48:11:859 DEBUG [PoolService-2] Element is displayed:: [[RemoteWebDriver: chrome on XP (c07b0287-f6e7-4329-be87-ad194761dd4f)] -> css selector: input[id*='city']] 
-25-May-2016 11:48:12:306 DEBUG [PoolService-3] Element is displayed:: [[RemoteWebDriver: chrome on XP (c419dad9-62af-4a77-972f-db217f08fff8)] -> css selector: input[id*='zip']] 
-25-May-2016 11:48:15:214 DEBUG [PoolService-2] Page URL:: https://development.eu.puma.com/en/checkout/start?dwcont=c1427479806 
-25-May-2016 11:48:15:556 DEBUG [PoolService-2] Element is displayed:: [[RemoteWebDriver: chrome on XP (c07b0287-f6e7-4329-be87-ad194761dd4f)] -> css selector: input[id*='emailAddress']] 
-25-May-2016 11:48:17:338 DEBUG [PoolService-3] Page URL:: https://development.eu.puma.com/en/checkout/start?dwcont=c1427480718 
-25-May-2016 11:48:17:985 DEBUG [PoolService-3] Element is displayed:: [[RemoteWebDriver: chrome on XP (c419dad9-62af-4a77-972f-db217f08fff8)] -> css selector: input[id*='city']] 
-25-May-2016 11:48:20:551 DEBUG [PoolService-2] Page URL:: https://development.eu.puma.com/en/checkout/start?dwcont=c1427479806 
-25-May-2016 11:48:20:982 DEBUG [PoolService-2] Element is displayed:: [[RemoteWebDriver: chrome on XP (c07b0287-f6e7-4329-be87-ad194761dd4f)] -> css selector: button[data-id*='countries_country']] 
-25-May-2016 11:48:22:999 DEBUG [PoolService-3] Page URL:: https://development.eu.puma.com/en/checkout/start?dwcont=c1427480718 
-25-May-2016 11:48:23:341 DEBUG [PoolService-3] Element is displayed:: [[RemoteWebDriver: chrome on XP (c419dad9-62af-4a77-972f-db217f08fff8)] -> css selector: input[id*='emailAddress']] 
-25-May-2016 11:48:25:219 DEBUG [PoolService-2] Page URL:: https://development.eu.puma.com/en/checkout/start?dwcont=c1427479806 
-25-May-2016 11:48:26:127 DEBUG [PoolService-2] Element is displayed:: [[RemoteWebDriver: chrome on XP (c07b0287-f6e7-4329-be87-ad194761dd4f)] -> css selector: div[class*='country'][class*='open'] ul[class='dropdown-menu inner selectpicker'] li[rel='10']] 
-25-May-2016 11:48:27:295 DEBUG [PoolService-3] Page URL:: https://development.eu.puma.com/en/checkout/start?dwcont=c1427480718 
-25-May-2016 11:48:27:524 DEBUG [PoolService-3] Element is displayed:: [[RemoteWebDriver: chrome on XP (c419dad9-62af-4a77-972f-db217f08fff8)] -> css selector: button[data-id*='countries_country']] 
-25-May-2016 11:48:28:228 DEBUG [PoolService-2] Page URL:: https://development.eu.puma.com/en/checkout/start?dwcont=c1427479806 
-25-May-2016 11:48:28:460 DEBUG [PoolService-2] Element is displayed:: [[RemoteWebDriver: chrome on XP (c07b0287-f6e7-4329-be87-ad194761dd4f)] -> css selector: input[id*='emailConfirm']] 
-25-May-2016 11:48:30:339 DEBUG [PoolService-3] Page URL:: https://development.eu.puma.com/en/checkout/start?dwcont=c1427480718 
-25-May-2016 11:48:30:680 DEBUG [PoolService-3] Element is displayed:: [[RemoteWebDriver: chrome on XP (c419dad9-62af-4a77-972f-db217f08fff8)] -> css selector: div[class*='country'][class*='open'] ul[class='dropdown-menu inner selectpicker'] li[rel='10']] 
-25-May-2016 11:48:31:899 DEBUG [PoolService-2] Page URL:: https://development.eu.puma.com/en/checkout/start?dwcont=c1427479806 
-25-May-2016 11:48:33:853 DEBUG [PoolService-3] Page URL:: https://development.eu.puma.com/en/checkout/start?dwcont=c1427480718 
-25-May-2016 11:48:34:230 DEBUG [PoolService-3] Element is displayed:: [[RemoteWebDriver: chrome on XP (c419dad9-62af-4a77-972f-db217f08fff8)] -> css selector: input[id*='emailConfirm']] 
-25-May-2016 11:48:36:729 DEBUG [PoolService-3] Page URL:: https://development.eu.puma.com/en/checkout/start?dwcont=c1427480718 
-25-May-2016 11:48:49:034 DEBUG [PoolService-0] Page URL:: http://development.eu.puma.com/en/pd/suede-classic-coloured-trainers/360850.html?dwvar_360850_color=columbia-surf%20the%20web#q=shoes&start=1 
-25-May-2016 11:48:49:650 DEBUG [PoolService-2] Element is displayed:: [[RemoteWebDriver: chrome on XP (c07b0287-f6e7-4329-be87-ad194761dd4f)] -> css selector: label[for='is-PAYMENTOPERATOR_CREDIT']] 
-25-May-2016 11:48:49:651 INFO  [PoolService-2] Step 7. Entered Shipping/Payment Address Information and Proceeded to Payment Page! 
-25-May-2016 11:48:50:109 DEBUG [PoolService-2] Element is displayed:: [[RemoteWebDriver: chrome on XP (c07b0287-f6e7-4329-be87-ad194761dd4f)] -> css selector: label[for='is-PAYMENTOPERATOR_CREDIT']] 
-25-May-2016 11:48:50:623 DEBUG [PoolService-3] Element is displayed:: [[RemoteWebDriver: chrome on XP (c419dad9-62af-4a77-972f-db217f08fff8)] -> css selector: label[for='is-PAYMENTOPERATOR_CREDIT']] 
-25-May-2016 11:48:50:624 INFO  [PoolService-3] Step 7. Entered Shipping/Payment Address Information and Proceeded to Payment Page! 
-25-May-2016 11:48:51:297 DEBUG [PoolService-2] Element is displayed:: [[RemoteWebDriver: chrome on XP (c07b0287-f6e7-4329-be87-ad194761dd4f)] -> css selector: button[name*='billing_save']] 
-25-May-2016 11:48:51:344 DEBUG [PoolService-3] Element is displayed:: [[RemoteWebDriver: chrome on XP (c419dad9-62af-4a77-972f-db217f08fff8)] -> css selector: label[for='is-PAYMENTOPERATOR_CREDIT']] 
-25-May-2016 11:48:51:570 INFO  [PoolService-2] Step 8. Selected CC Payment! 
-25-May-2016 11:48:51:573 INFO  [PoolService-2] Step 9. Proceeded to Order Review Page! 
-25-May-2016 11:48:52:285 DEBUG [PoolService-3] Element is displayed:: [[RemoteWebDriver: chrome on XP (c419dad9-62af-4a77-972f-db217f08fff8)] -> css selector: button[name*='billing_save']] 
-25-May-2016 11:48:53:090 DEBUG [PoolService-0] Page URL:: http://development.eu.puma.com/en/pd/suede-classic-coloured-trainers/360850.html?dwvar_360850_color=columbia-surf%20the%20web#q=shoes&start=1 
-25-May-2016 11:49:01:599 INFO  [PoolService-3] Step 8. Selected CC Payment! 
-25-May-2016 11:49:01:601 INFO  [PoolService-3] Step 9. Proceeded to Order Review Page! 
-25-May-2016 11:49:02:570 DEBUG [PoolService-0] Page URL:: http://development.eu.puma.com/en/pd/suede-classic-coloured-trainers/360850.html?dwvar_360850_color=columbia-surf%20the%20web#q=shoes&start=1 
-25-May-2016 11:49:04:737 DEBUG [PoolService-3] Element is displayed:: [[RemoteWebDriver: chrome on XP (c419dad9-62af-4a77-972f-db217f08fff8)] -> css selector: button[name*='submit']] 
-25-May-2016 11:49:04:831 DEBUG [PoolService-2] Element is displayed:: [[RemoteWebDriver: chrome on XP (c07b0287-f6e7-4329-be87-ad194761dd4f)] -> css selector: button[name*='submit']] 
-25-May-2016 11:49:05:845 DEBUG [PoolService-0] Page URL:: http://development.eu.puma.com/en/pd/suede-classic-coloured-trainers/360850.html?dwvar_360850_color=columbia-surf%20the%20web#q=shoes&start=1 
-25-May-2016 11:49:12:369 DEBUG [PoolService-0] Page URL:: http://development.eu.puma.com/en/pd/suede-classic-coloured-trainers/360850.html?dwvar_360850_color=columbia-surf%20the%20web#q=shoes&start=1 
-25-May-2016 11:49:12:801 DEBUG [PoolService-0] Element is displayed:: [[RemoteWebDriver: firefox on WINDOWS (37a8761c-2eab-4762-848a-2e653ac92d56)] -> css selector: button[id='add-to-cart']] 
-25-May-2016 11:49:13:704 DEBUG [PoolService-0] Element is displayed:: [[RemoteWebDriver: firefox on WINDOWS (37a8761c-2eab-4762-848a-2e653ac92d56)] -> css selector: div[class='mini-cart-total']] 
-25-May-2016 11:49:13:705 INFO  [PoolService-0] Step 3. Added Item to the Bag [Name: SUEDE CLASSIC COLOURED TRAINERS | SKU: 360850_05] 
-25-May-2016 11:49:14:335 DEBUG [PoolService-0] Element is displayed:: [[RemoteWebDriver: firefox on WINDOWS (37a8761c-2eab-4762-848a-2e653ac92d56)] -> css selector: div[class='mini-cart-total']] 
-25-May-2016 11:49:20:946 INFO  [PoolService-3] Step 10. Submitted Order! 
-25-May-2016 11:49:21:808 INFO  [PoolService-2] Step 10. Submitted Order! 
-25-May-2016 11:49:22:847 DEBUG [PoolService-3] Element is displayed:: [[RemoteWebDriver: chrome on XP (c419dad9-62af-4a77-972f-db217f08fff8)] -> css selector: select[name='KKName']] 
-25-May-2016 11:49:23:051 DEBUG [PoolService-2] Element is displayed:: [[RemoteWebDriver: chrome on XP (c07b0287-f6e7-4329-be87-ad194761dd4f)] -> css selector: select[name='KKName']] 
-25-May-2016 11:49:24:224 DEBUG [PoolService-0] Page URL:: https://development.eu.puma.com/en/cart 
-25-May-2016 11:49:27:655 DEBUG [PoolService-2] Element is displayed:: [[RemoteWebDriver: chrome on XP (c07b0287-f6e7-4329-be87-ad194761dd4f)] -> css selector: input[name='KKnr']] 
-25-May-2016 11:49:29:717 DEBUG [PoolService-3] Element is displayed:: [[RemoteWebDriver: chrome on XP (c419dad9-62af-4a77-972f-db217f08fff8)] -> css selector: input[name='KKnr']] 
-25-May-2016 11:49:29:897 DEBUG [PoolService-2] Element is displayed:: [[RemoteWebDriver: chrome on XP (c07b0287-f6e7-4329-be87-ad194761dd4f)] -> css selector: select[name='KKMonth']] 
-25-May-2016 11:49:31:657 DEBUG [PoolService-2] Element is displayed:: [[RemoteWebDriver: chrome on XP (c07b0287-f6e7-4329-be87-ad194761dd4f)] -> css selector: select[name='KKYear']] 
-25-May-2016 11:49:32:254 DEBUG [PoolService-3] Element is displayed:: [[RemoteWebDriver: chrome on XP (c419dad9-62af-4a77-972f-db217f08fff8)] -> css selector: select[name='KKMonth']] 
-25-May-2016 11:49:32:704 DEBUG [PoolService-2] Element is displayed:: [[RemoteWebDriver: chrome on XP (c07b0287-f6e7-4329-be87-ad194761dd4f)] -> css selector: input[name='cccvc']] 
-25-May-2016 11:49:34:045 DEBUG [PoolService-3] Element is displayed:: [[RemoteWebDriver: chrome on XP (c419dad9-62af-4a77-972f-db217f08fff8)] -> css selector: select[name='KKYear']] 
-25-May-2016 11:49:34:888 DEBUG [PoolService-2] Element is displayed:: [[RemoteWebDriver: chrome on XP (c07b0287-f6e7-4329-be87-ad194761dd4f)] -> css selector: input[value='Confirm']] 
-25-May-2016 11:49:35:533 DEBUG [PoolService-3] Element is displayed:: [[RemoteWebDriver: chrome on XP (c419dad9-62af-4a77-972f-db217f08fff8)] -> css selector: input[name='cccvc']] 
-25-May-2016 11:49:36:850 DEBUG [PoolService-3] Element is displayed:: [[RemoteWebDriver: chrome on XP (c419dad9-62af-4a77-972f-db217f08fff8)] -> css selector: input[value='Confirm']] 
-25-May-2016 11:49:44:668 DEBUG [PoolService-0] Element is displayed:: [[RemoteWebDriver: firefox on WINDOWS (37a8761c-2eab-4762-848a-2e653ac92d56)] -> css selector: form[id='cart-items-form']] 
-25-May-2016 11:49:46:681 DEBUG [PoolService-0] Element is displayed:: [[RemoteWebDriver: firefox on WINDOWS (37a8761c-2eab-4762-848a-2e653ac92d56)] -> css selector: form[id='cart-items-form']] 
-25-May-2016 11:49:46:682 INFO  [PoolService-0] Step 4. Navigated to Shopping Bag Page! 
-25-May-2016 11:49:55:864 DEBUG [PoolService-0] Page URL:: https://development.eu.puma.com/en/cart 
-25-May-2016 11:49:56:362 DEBUG [PoolService-0] Element is displayed:: [[RemoteWebDriver: firefox on WINDOWS (37a8761c-2eab-4762-848a-2e653ac92d56)] -> css selector: div[class*='cart-footer'] button[name*='checkoutCart']] 
-25-May-2016 11:50:23:666 FATAL [PoolService-2] Paymet Page not found in page!! 
-org.testng.SkipException: Paymet Page not found in page!!
-	at com.ecom.support.BrowserActions.getText(BrowserActions.java:174)
-	at com.ecom.pages.CheckoutPage.doPayment(CheckoutPage.java:305)
-	at com.puma.testscripts.Fluid_PUMA_Demo.tcPUMADemo01(Fluid_PUMA_Demo.java:93)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
-	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:73)
-	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:14)
-	at java.util.concurrent.FutureTask.run(Unknown Source)
-	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
-	at java.util.concurrent.FutureTask.run(Unknown Source)
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
-	at java.lang.Thread.run(Unknown Source)
-25-May-2016 11:50:23:672 INFO  [PoolService-2] ****             -E---N---D-             ***** 
-25-May-2016 11:50:26:786 DEBUG [PoolService-0] Page URL:: https://development.eu.puma.com/en/checkout/start 
-25-May-2016 11:50:27:196 DEBUG [PoolService-0] Element is displayed:: [[RemoteWebDriver: firefox on WINDOWS (37a8761c-2eab-4762-848a-2e653ac92d56)] -> css selector: button[name*='login']] 
-25-May-2016 11:50:28:103 DEBUG [PoolService-0] Element is displayed:: [[RemoteWebDriver: firefox on WINDOWS (37a8761c-2eab-4762-848a-2e653ac92d56)] -> css selector: button[name*='login']] 
-25-May-2016 11:50:28:104 INFO  [PoolService-0] Step 5. Navigated to Checkout Page! 
-25-May-2016 11:50:38:137 DEBUG [PoolService-0] Element is displayed:: [[RemoteWebDriver: firefox on WINDOWS (37a8761c-2eab-4762-848a-2e653ac92d56)] -> css selector: button[name*='unregistered']] 
-25-May-2016 11:50:41:314 FATAL [PoolService-3] Paymet Page not found in page!! 
-org.testng.SkipException: Paymet Page not found in page!!
-	at com.ecom.support.BrowserActions.getText(BrowserActions.java:174)
-	at com.ecom.pages.CheckoutPage.doPayment(CheckoutPage.java:305)
-	at com.puma.testscripts.Fluid_PUMA_Demo.tcPUMADemo01(Fluid_PUMA_Demo.java:93)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
-	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:73)
-	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:14)
-	at java.util.concurrent.FutureTask.run(Unknown Source)
-	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
-	at java.util.concurrent.FutureTask.run(Unknown Source)
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
-	at java.lang.Thread.run(Unknown Source)
-25-May-2016 11:50:41:316 INFO  [PoolService-3] ****             -E---N---D-             ***** 
-25-May-2016 11:51:17:371 INFO  [PoolService-0] Step 6. Navigated to Guest Checkout Page! 
-25-May-2016 11:51:20:900 DEBUG [PoolService-0] Page URL:: https://development.eu.puma.com/en/checkout/start?dwcont=c1427500608 
-25-May-2016 11:51:21:019 DEBUG [PoolService-0] Element is displayed:: [[RemoteWebDriver: firefox on WINDOWS (37a8761c-2eab-4762-848a-2e653ac92d56)] -> css selector: input[id*='firstName']] 
-25-May-2016 11:51:23:102 DEBUG [PoolService-0] Page URL:: https://development.eu.puma.com/en/checkout/start?dwcont=c1427500608 
-25-May-2016 11:51:23:279 DEBUG [PoolService-0] Element is displayed:: [[RemoteWebDriver: firefox on WINDOWS (37a8761c-2eab-4762-848a-2e653ac92d56)] -> css selector: input[id*='lastName']] 
-25-May-2016 11:51:26:624 DEBUG [PoolService-0] Page URL:: https://development.eu.puma.com/en/checkout/start?dwcont=c1427500608 
-25-May-2016 11:51:26:868 DEBUG [PoolService-0] Element is displayed:: [[RemoteWebDriver: firefox on WINDOWS (37a8761c-2eab-4762-848a-2e653ac92d56)] -> css selector: input[id*='address1']] 
-25-May-2016 11:51:28:601 DEBUG [PoolService-0] Page URL:: https://development.eu.puma.com/en/checkout/start?dwcont=c1427500608 
-25-May-2016 11:51:28:717 DEBUG [PoolService-0] Element is displayed:: [[RemoteWebDriver: firefox on WINDOWS (37a8761c-2eab-4762-848a-2e653ac92d56)] -> css selector: input[id*='suite']] 
-25-May-2016 11:51:30:227 DEBUG [PoolService-0] Page URL:: https://development.eu.puma.com/en/checkout/start?dwcont=c1427500608 
-25-May-2016 11:51:30:347 DEBUG [PoolService-0] Element is displayed:: [[RemoteWebDriver: firefox on WINDOWS (37a8761c-2eab-4762-848a-2e653ac92d56)] -> css selector: input[id*='zip']] 
-25-May-2016 11:51:31:986 DEBUG [PoolService-0] Page URL:: https://development.eu.puma.com/en/checkout/start?dwcont=c1427500608 
-25-May-2016 11:51:32:090 DEBUG [PoolService-0] Element is displayed:: [[RemoteWebDriver: firefox on WINDOWS (37a8761c-2eab-4762-848a-2e653ac92d56)] -> css selector: input[id*='city']] 
-25-May-2016 11:51:34:349 DEBUG [PoolService-0] Page URL:: https://development.eu.puma.com/en/checkout/start?dwcont=c1427500608 
-25-May-2016 11:51:34:463 DEBUG [PoolService-0] Element is displayed:: [[RemoteWebDriver: firefox on WINDOWS (37a8761c-2eab-4762-848a-2e653ac92d56)] -> css selector: input[id*='emailAddress']] 
-25-May-2016 11:51:36:378 DEBUG [PoolService-0] Page URL:: https://development.eu.puma.com/en/checkout/start?dwcont=c1427500608 
-25-May-2016 11:51:36:476 DEBUG [PoolService-0] Element is displayed:: [[RemoteWebDriver: firefox on WINDOWS (37a8761c-2eab-4762-848a-2e653ac92d56)] -> css selector: button[data-id*='countries_country']] 
-25-May-2016 11:51:38:412 DEBUG [PoolService-0] Page URL:: https://development.eu.puma.com/en/checkout/start?dwcont=c1427500608 
-25-May-2016 11:51:38:552 DEBUG [PoolService-0] Element is displayed:: [[RemoteWebDriver: firefox on WINDOWS (37a8761c-2eab-4762-848a-2e653ac92d56)] -> css selector: div[class*='country'][class*='open'] ul[class='dropdown-menu inner selectpicker'] li[rel='10']] 
-25-May-2016 11:51:40:528 DEBUG [PoolService-0] Page URL:: https://development.eu.puma.com/en/checkout/start?dwcont=c1427500608 
-25-May-2016 11:51:41:089 DEBUG [PoolService-0] Element is displayed:: [[RemoteWebDriver: firefox on WINDOWS (37a8761c-2eab-4762-848a-2e653ac92d56)] -> css selector: input[id*='emailConfirm']] 
-25-May-2016 11:51:43:259 DEBUG [PoolService-0] Page URL:: https://development.eu.puma.com/en/checkout/start?dwcont=c1427500608 
-25-May-2016 11:52:50:293 DEBUG [PoolService-0] Element is displayed:: [[RemoteWebDriver: firefox on WINDOWS (37a8761c-2eab-4762-848a-2e653ac92d56)] -> css selector: div[class*='mini-cart-total'] a[class*='mini-cart']] 
-25-May-2016 11:53:16:780 DEBUG [PoolService-0] Element is displayed:: [[RemoteWebDriver: firefox on WINDOWS (37a8761c-2eab-4762-848a-2e653ac92d56)] -> css selector: div[class*='cart-footer'] button[name*='checkoutCart']] 
-25-May-2016 11:53:32:691 DEBUG [PoolService-0] Element is displayed:: [[RemoteWebDriver: firefox on WINDOWS (37a8761c-2eab-4762-848a-2e653ac92d56)] -> css selector: button[name*='unregistered']] 
-25-May-2016 11:54:05:509 DEBUG [PoolService-0] Page URL:: https://development.eu.puma.com/en/checkout/start?dwcont=c1427507048 
-25-May-2016 11:54:06:185 DEBUG [PoolService-0] Element is displayed:: [[RemoteWebDriver: firefox on WINDOWS (37a8761c-2eab-4762-848a-2e653ac92d56)] -> css selector: input[id*='firstName']] 
-25-May-2016 11:54:09:807 DEBUG [PoolService-0] Page URL:: https://development.eu.puma.com/en/checkout/start?dwcont=c1427507048 
-25-May-2016 11:54:10:234 DEBUG [PoolService-0] Element is displayed:: [[RemoteWebDriver: firefox on WINDOWS (37a8761c-2eab-4762-848a-2e653ac92d56)] -> css selector: input[id*='lastName']] 
-25-May-2016 11:54:14:198 DEBUG [PoolService-0] Page URL:: https://development.eu.puma.com/en/checkout/start?dwcont=c1427507048 
-25-May-2016 11:54:14:294 DEBUG [PoolService-0] Element is displayed:: [[RemoteWebDriver: firefox on WINDOWS (37a8761c-2eab-4762-848a-2e653ac92d56)] -> css selector: input[id*='address1']] 
-25-May-2016 11:54:17:342 DEBUG [PoolService-0] Page URL:: https://development.eu.puma.com/en/checkout/start?dwcont=c1427507048 
-25-May-2016 11:54:17:498 DEBUG [PoolService-0] Element is displayed:: [[RemoteWebDriver: firefox on WINDOWS (37a8761c-2eab-4762-848a-2e653ac92d56)] -> css selector: input[id*='suite']] 
-25-May-2016 11:54:19:506 DEBUG [PoolService-0] Page URL:: https://development.eu.puma.com/en/checkout/start?dwcont=c1427507048 
-25-May-2016 11:54:19:605 DEBUG [PoolService-0] Element is displayed:: [[RemoteWebDriver: firefox on WINDOWS (37a8761c-2eab-4762-848a-2e653ac92d56)] -> css selector: input[id*='zip']] 
-25-May-2016 11:54:21:155 DEBUG [PoolService-0] Page URL:: https://development.eu.puma.com/en/checkout/start?dwcont=c1427507048 
-25-May-2016 11:54:21:252 DEBUG [PoolService-0] Element is displayed:: [[RemoteWebDriver: firefox on WINDOWS (37a8761c-2eab-4762-848a-2e653ac92d56)] -> css selector: input[id*='city']] 
-25-May-2016 11:54:22:803 DEBUG [PoolService-0] Page URL:: https://development.eu.puma.com/en/checkout/start?dwcont=c1427507048 
-25-May-2016 11:54:22:899 DEBUG [PoolService-0] Element is displayed:: [[RemoteWebDriver: firefox on WINDOWS (37a8761c-2eab-4762-848a-2e653ac92d56)] -> css selector: input[id*='emailAddress']] 
-25-May-2016 11:54:24:435 DEBUG [PoolService-0] Page URL:: https://development.eu.puma.com/en/checkout/start?dwcont=c1427507048 
-25-May-2016 11:54:24:526 DEBUG [PoolService-0] Element is displayed:: [[RemoteWebDriver: firefox on WINDOWS (37a8761c-2eab-4762-848a-2e653ac92d56)] -> css selector: button[data-id*='countries_country']] 
-25-May-2016 11:54:26:669 DEBUG [PoolService-0] Page URL:: https://development.eu.puma.com/en/checkout/start?dwcont=c1427507048 
-25-May-2016 11:54:26:803 DEBUG [PoolService-0] Element is displayed:: [[RemoteWebDriver: firefox on WINDOWS (37a8761c-2eab-4762-848a-2e653ac92d56)] -> css selector: div[class*='country'][class*='open'] ul[class='dropdown-menu inner selectpicker'] li[rel='10']] 
-25-May-2016 11:54:28:802 DEBUG [PoolService-0] Page URL:: https://development.eu.puma.com/en/checkout/start?dwcont=c1427507048 
-25-May-2016 11:54:28:916 DEBUG [PoolService-0] Element is displayed:: [[RemoteWebDriver: firefox on WINDOWS (37a8761c-2eab-4762-848a-2e653ac92d56)] -> css selector: input[id*='emailConfirm']] 
-25-May-2016 11:54:31:222 DEBUG [PoolService-0] Page URL:: https://development.eu.puma.com/en/checkout/start?dwcont=c1427507048 
-25-May-2016 11:55:28:549 DEBUG [PoolService-0] Element is displayed:: [[RemoteWebDriver: firefox on WINDOWS (37a8761c-2eab-4762-848a-2e653ac92d56)] -> css selector: div[class*='mini-cart-total'] a[class*='mini-cart']] 
-25-May-2016 11:55:53:618 DEBUG [PoolService-0] Element is displayed:: [[RemoteWebDriver: firefox on WINDOWS (37a8761c-2eab-4762-848a-2e653ac92d56)] -> css selector: div[class*='cart-footer'] button[name*='checkoutCart']] 
-25-May-2016 11:56:05:888 DEBUG [PoolService-0] Element is displayed:: [[RemoteWebDriver: firefox on WINDOWS (37a8761c-2eab-4762-848a-2e653ac92d56)] -> css selector: button[name*='unregistered']] 
-25-May-2016 11:56:35:868 DEBUG [PoolService-0] Page URL:: https://development.eu.puma.com/en/checkout/start?dwcont=c1427514098 
-25-May-2016 11:56:35:968 DEBUG [PoolService-0] Element is displayed:: [[RemoteWebDriver: firefox on WINDOWS (37a8761c-2eab-4762-848a-2e653ac92d56)] -> css selector: input[id*='firstName']] 
-25-May-2016 11:56:40:694 DEBUG [PoolService-0] Page URL:: https://development.eu.puma.com/en/checkout/start?dwcont=c1427514098 
-25-May-2016 11:56:40:985 DEBUG [PoolService-0] Element is displayed:: [[RemoteWebDriver: firefox on WINDOWS (37a8761c-2eab-4762-848a-2e653ac92d56)] -> css selector: input[id*='lastName']] 
-25-May-2016 11:56:44:104 DEBUG [PoolService-0] Page URL:: https://development.eu.puma.com/en/checkout/start?dwcont=c1427514098 
-25-May-2016 11:56:44:306 DEBUG [PoolService-0] Element is displayed:: [[RemoteWebDriver: firefox on WINDOWS (37a8761c-2eab-4762-848a-2e653ac92d56)] -> css selector: input[id*='address1']] 
-25-May-2016 11:56:46:972 DEBUG [PoolService-0] Page URL:: https://development.eu.puma.com/en/checkout/start?dwcont=c1427514098 
-25-May-2016 11:56:47:088 DEBUG [PoolService-0] Element is displayed:: [[RemoteWebDriver: firefox on WINDOWS (37a8761c-2eab-4762-848a-2e653ac92d56)] -> css selector: input[id*='suite']] 
-25-May-2016 11:56:48:635 DEBUG [PoolService-0] Page URL:: https://development.eu.puma.com/en/checkout/start?dwcont=c1427514098 
-25-May-2016 11:56:48:729 DEBUG [PoolService-0] Element is displayed:: [[RemoteWebDriver: firefox on WINDOWS (37a8761c-2eab-4762-848a-2e653ac92d56)] -> css selector: input[id*='zip']] 
-25-May-2016 11:56:50:570 DEBUG [PoolService-0] Page URL:: https://development.eu.puma.com/en/checkout/start?dwcont=c1427514098 
-25-May-2016 11:56:50:718 DEBUG [PoolService-0] Element is displayed:: [[RemoteWebDriver: firefox on WINDOWS (37a8761c-2eab-4762-848a-2e653ac92d56)] -> css selector: input[id*='city']] 
-25-May-2016 11:56:52:827 DEBUG [PoolService-0] Page URL:: https://development.eu.puma.com/en/checkout/start?dwcont=c1427514098 
-25-May-2016 11:56:52:995 DEBUG [PoolService-0] Element is displayed:: [[RemoteWebDriver: firefox on WINDOWS (37a8761c-2eab-4762-848a-2e653ac92d56)] -> css selector: input[id*='emailAddress']] 
-25-May-2016 11:56:55:423 DEBUG [PoolService-0] Page URL:: https://development.eu.puma.com/en/checkout/start?dwcont=c1427514098 
-25-May-2016 11:56:55:523 DEBUG [PoolService-0] Element is displayed:: [[RemoteWebDriver: firefox on WINDOWS (37a8761c-2eab-4762-848a-2e653ac92d56)] -> css selector: button[data-id*='countries_country']] 
-25-May-2016 11:56:56:959 DEBUG [PoolService-0] Page URL:: https://development.eu.puma.com/en/checkout/start?dwcont=c1427514098 
-25-May-2016 11:56:57:135 DEBUG [PoolService-0] Element is displayed:: [[RemoteWebDriver: firefox on WINDOWS (37a8761c-2eab-4762-848a-2e653ac92d56)] -> css selector: div[class*='country'][class*='open'] ul[class='dropdown-menu inner selectpicker'] li[rel='10']] 
-25-May-2016 11:57:01:270 DEBUG [PoolService-0] Page URL:: https://development.eu.puma.com/en/checkout/start?dwcont=c1427514098 
-25-May-2016 11:57:01:477 DEBUG [PoolService-0] Element is displayed:: [[RemoteWebDriver: firefox on WINDOWS (37a8761c-2eab-4762-848a-2e653ac92d56)] -> css selector: input[id*='emailConfirm']] 
-25-May-2016 11:57:03:474 DEBUG [PoolService-0] Page URL:: https://development.eu.puma.com/en/checkout/start?dwcont=c1427514098 
-25-May-2016 11:58:08:610 DEBUG [PoolService-0] Element is displayed:: [[RemoteWebDriver: firefox on WINDOWS (37a8761c-2eab-4762-848a-2e653ac92d56)] -> css selector: div[class*='mini-cart-total'] a[class*='mini-cart']] 
-25-May-2016 11:58:39:215 DEBUG [PoolService-0] Element is displayed:: [[RemoteWebDriver: firefox on WINDOWS (37a8761c-2eab-4762-848a-2e653ac92d56)] -> css selector: div[class*='cart-footer'] button[name*='checkoutCart']] 
-25-May-2016 11:59:01:459 DEBUG [PoolService-0] Element is displayed:: [[RemoteWebDriver: firefox on WINDOWS (37a8761c-2eab-4762-848a-2e653ac92d56)] -> css selector: button[name*='unregistered']] 
-25-May-2016 11:59:29:238 DEBUG [PoolService-0] Page URL:: https://development.eu.puma.com/en/checkout/start?dwcont=c1427520999 
-25-May-2016 11:59:29:403 DEBUG [PoolService-0] Element is displayed:: [[RemoteWebDriver: firefox on WINDOWS (37a8761c-2eab-4762-848a-2e653ac92d56)] -> css selector: input[id*='firstName']] 
-25-May-2016 11:59:32:082 DEBUG [PoolService-0] Page URL:: https://development.eu.puma.com/en/checkout/start?dwcont=c1427520999 
-25-May-2016 11:59:32:221 DEBUG [PoolService-0] Element is displayed:: [[RemoteWebDriver: firefox on WINDOWS (37a8761c-2eab-4762-848a-2e653ac92d56)] -> css selector: input[id*='lastName']] 
-25-May-2016 11:59:33:949 DEBUG [PoolService-0] Page URL:: https://development.eu.puma.com/en/checkout/start?dwcont=c1427520999 
-25-May-2016 11:59:34:089 DEBUG [PoolService-0] Element is displayed:: [[RemoteWebDriver: firefox on WINDOWS (37a8761c-2eab-4762-848a-2e653ac92d56)] -> css selector: input[id*='address1']] 
-25-May-2016 11:59:35:902 DEBUG [PoolService-0] Page URL:: https://development.eu.puma.com/en/checkout/start?dwcont=c1427520999 
-25-May-2016 11:59:35:998 DEBUG [PoolService-0] Element is displayed:: [[RemoteWebDriver: firefox on WINDOWS (37a8761c-2eab-4762-848a-2e653ac92d56)] -> css selector: input[id*='suite']] 
-25-May-2016 11:59:37:523 DEBUG [PoolService-0] Page URL:: https://development.eu.puma.com/en/checkout/start?dwcont=c1427520999 
-25-May-2016 11:59:37:610 DEBUG [PoolService-0] Element is displayed:: [[RemoteWebDriver: firefox on WINDOWS (37a8761c-2eab-4762-848a-2e653ac92d56)] -> css selector: input[id*='zip']] 
-25-May-2016 11:59:39:628 DEBUG [PoolService-0] Page URL:: https://development.eu.puma.com/en/checkout/start?dwcont=c1427520999 
-25-May-2016 11:59:39:733 DEBUG [PoolService-0] Element is displayed:: [[RemoteWebDriver: firefox on WINDOWS (37a8761c-2eab-4762-848a-2e653ac92d56)] -> css selector: input[id*='city']] 
-25-May-2016 11:59:41:306 DEBUG [PoolService-0] Page URL:: https://development.eu.puma.com/en/checkout/start?dwcont=c1427520999 
-25-May-2016 11:59:41:406 DEBUG [PoolService-0] Element is displayed:: [[RemoteWebDriver: firefox on WINDOWS (37a8761c-2eab-4762-848a-2e653ac92d56)] -> css selector: input[id*='emailAddress']] 
-25-May-2016 11:59:43:060 DEBUG [PoolService-0] Page URL:: https://development.eu.puma.com/en/checkout/start?dwcont=c1427520999 
-25-May-2016 11:59:43:150 DEBUG [PoolService-0] Element is displayed:: [[RemoteWebDriver: firefox on WINDOWS (37a8761c-2eab-4762-848a-2e653ac92d56)] -> css selector: button[data-id*='countries_country']] 
-25-May-2016 11:59:44:885 DEBUG [PoolService-0] Page URL:: https://development.eu.puma.com/en/checkout/start?dwcont=c1427520999 
-25-May-2016 11:59:44:984 DEBUG [PoolService-0] Element is displayed:: [[RemoteWebDriver: firefox on WINDOWS (37a8761c-2eab-4762-848a-2e653ac92d56)] -> css selector: div[class*='country'][class*='open'] ul[class='dropdown-menu inner selectpicker'] li[rel='10']] 
-25-May-2016 11:59:47:782 DEBUG [PoolService-0] Page URL:: https://development.eu.puma.com/en/checkout/start?dwcont=c1427520999 
-25-May-2016 11:59:48:062 DEBUG [PoolService-0] Element is displayed:: [[RemoteWebDriver: firefox on WINDOWS (37a8761c-2eab-4762-848a-2e653ac92d56)] -> css selector: input[id*='emailConfirm']] 
-25-May-2016 11:59:49:823 DEBUG [PoolService-0] Page URL:: https://development.eu.puma.com/en/checkout/start?dwcont=c1427520999 
-25-May-2016 12:00:46:567 DEBUG [PoolService-0] Element is displayed:: [[RemoteWebDriver: firefox on WINDOWS (37a8761c-2eab-4762-848a-2e653ac92d56)] -> css selector: div[class*='mini-cart-total'] a[class*='mini-cart']] 
-25-May-2016 12:01:04:148 DEBUG [PoolService-0] Element is displayed:: [[RemoteWebDriver: firefox on WINDOWS (37a8761c-2eab-4762-848a-2e653ac92d56)] -> css selector: div[class*='cart-footer'] button[name*='checkoutCart']] 
-25-May-2016 12:01:20:211 DEBUG [PoolService-0] Element is displayed:: [[RemoteWebDriver: firefox on WINDOWS (37a8761c-2eab-4762-848a-2e653ac92d56)] -> css selector: button[name*='unregistered']] 
-25-May-2016 12:01:56:953 DEBUG [PoolService-0] Page URL:: https://development.eu.puma.com/en/checkout/start?dwcont=c1427528104 
-25-May-2016 12:01:57:231 DEBUG [PoolService-0] Element is displayed:: [[RemoteWebDriver: firefox on WINDOWS (37a8761c-2eab-4762-848a-2e653ac92d56)] -> css selector: input[id*='firstName']] 
-25-May-2016 12:02:00:416 DEBUG [PoolService-0] Page URL:: https://development.eu.puma.com/en/checkout/start?dwcont=c1427528104 
-25-May-2016 12:02:00:691 DEBUG [PoolService-0] Element is displayed:: [[RemoteWebDriver: firefox on WINDOWS (37a8761c-2eab-4762-848a-2e653ac92d56)] -> css selector: input[id*='lastName']] 
-25-May-2016 12:02:04:557 DEBUG [PoolService-0] Page URL:: https://development.eu.puma.com/en/checkout/start?dwcont=c1427528104 
-25-May-2016 12:02:04:857 DEBUG [PoolService-0] Element is displayed:: [[RemoteWebDriver: firefox on WINDOWS (37a8761c-2eab-4762-848a-2e653ac92d56)] -> css selector: input[id*='address1']] 
-25-May-2016 12:02:07:813 DEBUG [PoolService-0] Page URL:: https://development.eu.puma.com/en/checkout/start?dwcont=c1427528104 
-25-May-2016 12:02:07:930 DEBUG [PoolService-0] Element is displayed:: [[RemoteWebDriver: firefox on WINDOWS (37a8761c-2eab-4762-848a-2e653ac92d56)] -> css selector: input[id*='suite']] 
-25-May-2016 12:02:09:493 DEBUG [PoolService-0] Page URL:: https://development.eu.puma.com/en/checkout/start?dwcont=c1427528104 
-25-May-2016 12:02:09:587 DEBUG [PoolService-0] Element is displayed:: [[RemoteWebDriver: firefox on WINDOWS (37a8761c-2eab-4762-848a-2e653ac92d56)] -> css selector: input[id*='zip']] 
-25-May-2016 12:02:11:339 DEBUG [PoolService-0] Page URL:: https://development.eu.puma.com/en/checkout/start?dwcont=c1427528104 
-25-May-2016 12:02:11:595 DEBUG [PoolService-0] Element is displayed:: [[RemoteWebDriver: firefox on WINDOWS (37a8761c-2eab-4762-848a-2e653ac92d56)] -> css selector: input[id*='city']] 
-25-May-2016 12:02:13:271 DEBUG [PoolService-0] Page URL:: https://development.eu.puma.com/en/checkout/start?dwcont=c1427528104 
-25-May-2016 12:02:13:370 DEBUG [PoolService-0] Element is displayed:: [[RemoteWebDriver: firefox on WINDOWS (37a8761c-2eab-4762-848a-2e653ac92d56)] -> css selector: input[id*='emailAddress']] 
-25-May-2016 12:02:15:139 DEBUG [PoolService-0] Page URL:: https://development.eu.puma.com/en/checkout/start?dwcont=c1427528104 
-25-May-2016 12:02:15:231 DEBUG [PoolService-0] Element is displayed:: [[RemoteWebDriver: firefox on WINDOWS (37a8761c-2eab-4762-848a-2e653ac92d56)] -> css selector: button[data-id*='countries_country']] 
-25-May-2016 12:02:16:871 DEBUG [PoolService-0] Page URL:: https://development.eu.puma.com/en/checkout/start?dwcont=c1427528104 
-25-May-2016 12:02:17:055 DEBUG [PoolService-0] Element is displayed:: [[RemoteWebDriver: firefox on WINDOWS (37a8761c-2eab-4762-848a-2e653ac92d56)] -> css selector: div[class*='country'][class*='open'] ul[class='dropdown-menu inner selectpicker'] li[rel='10']] 
-25-May-2016 12:02:20:917 DEBUG [PoolService-0] Page URL:: https://development.eu.puma.com/en/checkout/start?dwcont=c1427528104 
-25-May-2016 12:02:21:047 DEBUG [PoolService-0] Element is displayed:: [[RemoteWebDriver: firefox on WINDOWS (37a8761c-2eab-4762-848a-2e653ac92d56)] -> css selector: input[id*='emailConfirm']] 
-25-May-2016 12:02:22:816 DEBUG [PoolService-0] Page URL:: https://development.eu.puma.com/en/checkout/start?dwcont=c1427528104 
-25-May-2016 12:03:21:963 DEBUG [PoolService-0] Element is displayed:: [[RemoteWebDriver: firefox on WINDOWS (37a8761c-2eab-4762-848a-2e653ac92d56)] -> css selector: div[class*='mini-cart-total'] a[class*='mini-cart']] 
-25-May-2016 12:03:40:856 DEBUG [PoolService-0] Element is displayed:: [[RemoteWebDriver: firefox on WINDOWS (37a8761c-2eab-4762-848a-2e653ac92d56)] -> css selector: div[class*='cart-footer'] button[name*='checkoutCart']] 
-25-May-2016 12:03:58:524 DEBUG [PoolService-0] Element is displayed:: [[RemoteWebDriver: firefox on WINDOWS (37a8761c-2eab-4762-848a-2e653ac92d56)] -> css selector: button[name*='unregistered']] 
-25-May-2016 12:04:28:655 DEBUG [PoolService-0] Page URL:: https://development.eu.puma.com/en/checkout/start?dwcont=c1427534236 
-25-May-2016 12:04:29:379 DEBUG [PoolService-0] Element is displayed:: [[RemoteWebDriver: firefox on WINDOWS (37a8761c-2eab-4762-848a-2e653ac92d56)] -> css selector: input[id*='firstName']] 
-25-May-2016 12:04:34:076 DEBUG [PoolService-0] Page URL:: https://development.eu.puma.com/en/checkout/start?dwcont=c1427534236 
-25-May-2016 12:04:34:423 DEBUG [PoolService-0] Element is displayed:: [[RemoteWebDriver: firefox on WINDOWS (37a8761c-2eab-4762-848a-2e653ac92d56)] -> css selector: input[id*='lastName']] 
-25-May-2016 12:04:40:093 DEBUG [PoolService-0] Page URL:: https://development.eu.puma.com/en/checkout/start?dwcont=c1427534236 
-25-May-2016 12:04:40:368 DEBUG [PoolService-0] Element is displayed:: [[RemoteWebDriver: firefox on WINDOWS (37a8761c-2eab-4762-848a-2e653ac92d56)] -> css selector: input[id*='address1']] 
-25-May-2016 12:04:42:838 DEBUG [PoolService-0] Page URL:: https://development.eu.puma.com/en/checkout/start?dwcont=c1427534236 
-25-May-2016 12:04:42:940 DEBUG [PoolService-0] Element is displayed:: [[RemoteWebDriver: firefox on WINDOWS (37a8761c-2eab-4762-848a-2e653ac92d56)] -> css selector: input[id*='suite']] 
-25-May-2016 12:04:44:402 DEBUG [PoolService-0] Page URL:: https://development.eu.puma.com/en/checkout/start?dwcont=c1427534236 
-25-May-2016 12:04:44:519 DEBUG [PoolService-0] Element is displayed:: [[RemoteWebDriver: firefox on WINDOWS (37a8761c-2eab-4762-848a-2e653ac92d56)] -> css selector: input[id*='zip']] 
-25-May-2016 12:04:45:895 DEBUG [PoolService-0] Page URL:: https://development.eu.puma.com/en/checkout/start?dwcont=c1427534236 
-25-May-2016 12:04:45:981 DEBUG [PoolService-0] Element is displayed:: [[RemoteWebDriver: firefox on WINDOWS (37a8761c-2eab-4762-848a-2e653ac92d56)] -> css selector: input[id*='city']] 
-25-May-2016 12:04:48:155 DEBUG [PoolService-0] Page URL:: https://development.eu.puma.com/en/checkout/start?dwcont=c1427534236 
-25-May-2016 12:04:48:265 DEBUG [PoolService-0] Element is displayed:: [[RemoteWebDriver: firefox on WINDOWS (37a8761c-2eab-4762-848a-2e653ac92d56)] -> css selector: input[id*='emailAddress']] 
-25-May-2016 12:04:49:950 DEBUG [PoolService-0] Page URL:: https://development.eu.puma.com/en/checkout/start?dwcont=c1427534236 
-25-May-2016 12:04:50:056 DEBUG [PoolService-0] Element is displayed:: [[RemoteWebDriver: firefox on WINDOWS (37a8761c-2eab-4762-848a-2e653ac92d56)] -> css selector: button[data-id*='countries_country']] 
-25-May-2016 12:04:51:361 DEBUG [PoolService-0] Page URL:: https://development.eu.puma.com/en/checkout/start?dwcont=c1427534236 
-25-May-2016 12:04:51:478 DEBUG [PoolService-0] Element is displayed:: [[RemoteWebDriver: firefox on WINDOWS (37a8761c-2eab-4762-848a-2e653ac92d56)] -> css selector: div[class*='country'][class*='open'] ul[class='dropdown-menu inner selectpicker'] li[rel='10']] 
-25-May-2016 12:04:52:860 DEBUG [PoolService-0] Page URL:: https://development.eu.puma.com/en/checkout/start?dwcont=c1427534236 
-25-May-2016 12:04:52:956 DEBUG [PoolService-0] Element is displayed:: [[RemoteWebDriver: firefox on WINDOWS (37a8761c-2eab-4762-848a-2e653ac92d56)] -> css selector: input[id*='emailConfirm']] 
-25-May-2016 12:04:55:892 DEBUG [PoolService-0] Page URL:: https://development.eu.puma.com/en/checkout/start?dwcont=c1427534236 
-25-May-2016 12:05:56:119 DEBUG [PoolService-0] Element is displayed:: [[RemoteWebDriver: firefox on WINDOWS (37a8761c-2eab-4762-848a-2e653ac92d56)] -> css selector: div[class*='mini-cart-total'] a[class*='mini-cart']] 
-25-May-2016 12:06:15:304 DEBUG [PoolService-0] Element is displayed:: [[RemoteWebDriver: firefox on WINDOWS (37a8761c-2eab-4762-848a-2e653ac92d56)] -> css selector: div[class*='cart-footer'] button[name*='checkoutCart']] 
-25-May-2016 12:06:35:971 DEBUG [PoolService-0] Element is displayed:: [[RemoteWebDriver: firefox on WINDOWS (37a8761c-2eab-4762-848a-2e653ac92d56)] -> css selector: button[name*='unregistered']] 
-25-May-2016 12:07:11:541 DEBUG [PoolService-0] Page URL:: https://development.eu.puma.com/en/checkout/start?dwcont=c1427540437 
-25-May-2016 12:07:12:148 DEBUG [PoolService-0] Element is displayed:: [[RemoteWebDriver: firefox on WINDOWS (37a8761c-2eab-4762-848a-2e653ac92d56)] -> css selector: input[id*='firstName']] 
-25-May-2016 12:07:16:401 DEBUG [PoolService-0] Page URL:: https://development.eu.puma.com/en/checkout/start?dwcont=c1427540437 
-25-May-2016 12:07:16:714 DEBUG [PoolService-0] Element is displayed:: [[RemoteWebDriver: firefox on WINDOWS (37a8761c-2eab-4762-848a-2e653ac92d56)] -> css selector: input[id*='lastName']] 
-25-May-2016 12:07:20:598 DEBUG [PoolService-0] Page URL:: https://development.eu.puma.com/en/checkout/start?dwcont=c1427540437 
-25-May-2016 12:07:20:930 DEBUG [PoolService-0] Element is displayed:: [[RemoteWebDriver: firefox on WINDOWS (37a8761c-2eab-4762-848a-2e653ac92d56)] -> css selector: input[id*='address1']] 
-25-May-2016 12:07:25:612 DEBUG [PoolService-0] Page URL:: https://development.eu.puma.com/en/checkout/start?dwcont=c1427540437 
-25-May-2016 12:07:25:868 DEBUG [PoolService-0] Element is displayed:: [[RemoteWebDriver: firefox on WINDOWS (37a8761c-2eab-4762-848a-2e653ac92d56)] -> css selector: input[id*='suite']] 
-25-May-2016 12:07:27:837 DEBUG [PoolService-0] Page URL:: https://development.eu.puma.com/en/checkout/start?dwcont=c1427540437 
-25-May-2016 12:07:27:935 DEBUG [PoolService-0] Element is displayed:: [[RemoteWebDriver: firefox on WINDOWS (37a8761c-2eab-4762-848a-2e653ac92d56)] -> css selector: input[id*='zip']] 
-25-May-2016 12:07:29:443 DEBUG [PoolService-0] Page URL:: https://development.eu.puma.com/en/checkout/start?dwcont=c1427540437 
-25-May-2016 12:07:29:541 DEBUG [PoolService-0] Element is displayed:: [[RemoteWebDriver: firefox on WINDOWS (37a8761c-2eab-4762-848a-2e653ac92d56)] -> css selector: input[id*='city']] 
-25-May-2016 12:07:31:081 DEBUG [PoolService-0] Page URL:: https://development.eu.puma.com/en/checkout/start?dwcont=c1427540437 
-25-May-2016 12:07:31:230 DEBUG [PoolService-0] Element is displayed:: [[RemoteWebDriver: firefox on WINDOWS (37a8761c-2eab-4762-848a-2e653ac92d56)] -> css selector: input[id*='emailAddress']] 
-25-May-2016 12:07:33:579 DEBUG [PoolService-0] Page URL:: https://development.eu.puma.com/en/checkout/start?dwcont=c1427540437 
-25-May-2016 12:07:33:731 DEBUG [PoolService-0] Element is displayed:: [[RemoteWebDriver: firefox on WINDOWS (37a8761c-2eab-4762-848a-2e653ac92d56)] -> css selector: button[data-id*='countries_country']] 
-25-May-2016 12:07:35:472 DEBUG [PoolService-0] Page URL:: https://development.eu.puma.com/en/checkout/start?dwcont=c1427540437 
-25-May-2016 12:07:35:603 DEBUG [PoolService-0] Element is displayed:: [[RemoteWebDriver: firefox on WINDOWS (37a8761c-2eab-4762-848a-2e653ac92d56)] -> css selector: div[class*='country'][class*='open'] ul[class='dropdown-menu inner selectpicker'] li[rel='10']] 
-25-May-2016 12:07:37:385 DEBUG [PoolService-0] Page URL:: https://development.eu.puma.com/en/checkout/start?dwcont=c1427540437 
-25-May-2016 12:07:37:486 DEBUG [PoolService-0] Element is displayed:: [[RemoteWebDriver: firefox on WINDOWS (37a8761c-2eab-4762-848a-2e653ac92d56)] -> css selector: input[id*='emailConfirm']] 
-25-May-2016 12:07:39:802 DEBUG [PoolService-0] Page URL:: https://development.eu.puma.com/en/checkout/start?dwcont=c1427540437 
-25-May-2016 12:07:42:392 INFO  [PoolService-0] ****             -E---N---D-             ***** 
+18-Aug-2016 14:35:25:820 INFO  [PoolService-0]  
+18-Aug-2016 14:35:25:846 INFO  [PoolService-0] ****             Account Creation<small><b><i>[Chrome_windows || SEARSCA.DEMANDWARE.NET/ON/DEMANDWARE.STORE/SITES ]</b></i></small>             ***** 
+18-Aug-2016 14:35:25:848 INFO  [PoolService-0]  
+18-Aug-2016 14:35:26:490 DEBUG [PoolService-0] Page URL:: data:, 
+18-Aug-2016 14:35:26:493 DEBUG [PoolService-0] Page Load Wait: (Sync) 
+18-Aug-2016 14:35:30:962 DEBUG [PoolService-0] Page URL:: data:, 
+18-Aug-2016 14:35:30:964 DEBUG [PoolService-0] Page Load Wait: (Sync) 
+18-Aug-2016 14:35:51:515 DEBUG [PoolService-0] Element is displayed:: [[RemoteWebDriver: chrome on XP (1769d96a-f89a-47e0-be5b-61f1b77f6d41)] -> css selector: div[class*='top-nav'] svg[class*='search__icon']] 
+18-Aug-2016 14:35:56:341 DEBUG [PoolService-0] Page URL:: https://development-initium-searsca.demandware.net/on/demandware.store/sites-searsca-site 
+18-Aug-2016 14:35:56:348 DEBUG [PoolService-0] Page Load Wait: (Sync) 
+18-Aug-2016 14:35:58:854 DEBUG [PoolService-0] Page URL:: https://development-initium-searsca.demandware.net/on/demandware.store/sites-searsca-site 
+18-Aug-2016 14:35:58:857 DEBUG [PoolService-0] Page Load Wait: (Sync) 
+18-Aug-2016 14:35:59:012 DEBUG [PoolService-0] Element is displayed:: [[RemoteWebDriver: chrome on XP (1769d96a-f89a-47e0-be5b-61f1b77f6d41)] -> css selector: div[class*='top-nav'] svg[class*='search__icon']] 
+18-Aug-2016 14:35:59:013 INFO  [PoolService-0] Step 1. Navigated to 'searsca.demandware.net/on/demandware.store/Sites' Home Page! 
+18-Aug-2016 14:35:59:348 DEBUG [PoolService-0] Element is displayed:: [[RemoteWebDriver: chrome on XP (1769d96a-f89a-47e0-be5b-61f1b77f6d41)] -> css selector: div[class*='top-nav'] svg[class*='icon-account']] 
+18-Aug-2016 14:35:59:674 DEBUG [PoolService-0] Clicked on the sign in link! 
+18-Aug-2016 14:36:01:323 INFO  [PoolService-0] Step 2. My account pop up displayed 
+18-Aug-2016 14:36:01:807 DEBUG [PoolService-0] Element is displayed:: [[RemoteWebDriver: chrome on XP (1769d96a-f89a-47e0-be5b-61f1b77f6d41)] -> css selector: div[class*='top-nav'] [title*='Register']] 
+18-Aug-2016 14:36:06:137 DEBUG [PoolService-0] Clicked on the sign in link! 
+18-Aug-2016 14:36:07:071 DEBUG [PoolService-0] Page URL:: https://development-initium-searsca.demandware.net/on/demandware.store/sites-searsca-site/default/account-startregister 
+18-Aug-2016 14:36:07:073 DEBUG [PoolService-0] Page Load Wait: (Sync) 
+18-Aug-2016 14:37:00:339 DEBUG [PoolService-0] Unable to find a element after 0 sec ==> Proxy element for: AjaxElementLocator 'By.cssSelector: div[class='breadcrumb']' 
+18-Aug-2016 14:37:53:657 DEBUG [PoolService-0] Unable to find a element after 0 sec ==> Proxy element for: AjaxElementLocator 'By.cssSelector: div[class='breadcrumb']' 
+18-Aug-2016 14:37:54:125 INFO  [PoolService-0] Step 3. Navigated to account creation page! 
+18-Aug-2016 14:37:54:129 TRACE [PoolService-0] Option not matched - please read Method document to pass correct form of parameter. Try: Type/Click/Select 
+18-Aug-2016 14:37:54:880 DEBUG [PoolService-0] Page URL:: https://development-initium-searsca.demandware.net/on/demandware.store/sites-searsca-site/default/account-startregister 
+18-Aug-2016 14:37:54:882 DEBUG [PoolService-0] Page Load Wait: (Sync) 
+18-Aug-2016 14:37:54:883 TRACE [PoolService-0] Option not matched - please read Method document to pass correct form of parameter. Try: Type/Click/Select 
+18-Aug-2016 14:37:55:417 DEBUG [PoolService-0] Page URL:: https://development-initium-searsca.demandware.net/on/demandware.store/sites-searsca-site/default/account-startregister 
+18-Aug-2016 14:37:55:418 DEBUG [PoolService-0] Page Load Wait: (Sync) 
+18-Aug-2016 14:37:55:419 TRACE [PoolService-0] Option not matched - please read Method document to pass correct form of parameter. Try: Type/Click/Select 
+18-Aug-2016 14:37:56:022 DEBUG [PoolService-0] Page URL:: https://development-initium-searsca.demandware.net/on/demandware.store/sites-searsca-site/default/account-startregister 
+18-Aug-2016 14:37:56:025 DEBUG [PoolService-0] Page Load Wait: (Sync) 
+18-Aug-2016 14:37:56:027 TRACE [PoolService-0] Option not matched - please read Method document to pass correct form of parameter. Try: Type/Click/Select 
+18-Aug-2016 14:37:56:903 DEBUG [PoolService-0] Page URL:: https://development-initium-searsca.demandware.net/on/demandware.store/sites-searsca-site/default/account-startregister 
+18-Aug-2016 14:37:56:904 DEBUG [PoolService-0] Page Load Wait: (Sync) 
+18-Aug-2016 14:37:56:905 TRACE [PoolService-0] Option not matched - please read Method document to pass correct form of parameter. Try: Type/Click/Select 
+18-Aug-2016 14:37:57:675 DEBUG [PoolService-0] Page URL:: https://development-initium-searsca.demandware.net/on/demandware.store/sites-searsca-site/default/account-startregister 
+18-Aug-2016 14:37:57:677 DEBUG [PoolService-0] Page Load Wait: (Sync) 
+18-Aug-2016 14:37:57:678 TRACE [PoolService-0] Option not matched - please read Method document to pass correct form of parameter. Try: Type/Click/Select 
+18-Aug-2016 14:37:58:293 DEBUG [PoolService-0] Page URL:: https://development-initium-searsca.demandware.net/on/demandware.store/sites-searsca-site/default/account-startregister 
+18-Aug-2016 14:37:58:297 DEBUG [PoolService-0] Page Load Wait: (Sync) 
+18-Aug-2016 14:37:58:417 DEBUG [PoolService-0] Element is displayed:: [[RemoteWebDriver: chrome on XP (1769d96a-f89a-47e0-be5b-61f1b77f6d41)] -> css selector: input[id='dwfrm_profile_customer_firstname']] 
+18-Aug-2016 14:37:59:538 DEBUG [PoolService-0] Page URL:: https://development-initium-searsca.demandware.net/on/demandware.store/sites-searsca-site/default/account-startregister 
+18-Aug-2016 14:37:59:540 DEBUG [PoolService-0] Page Load Wait: (Sync) 
+18-Aug-2016 14:37:59:672 DEBUG [PoolService-0] Element is displayed:: [[RemoteWebDriver: chrome on XP (1769d96a-f89a-47e0-be5b-61f1b77f6d41)] -> css selector: input[id='dwfrm_profile_customer_lastname']] 
+18-Aug-2016 14:38:01:506 DEBUG [PoolService-0] Page URL:: https://development-initium-searsca.demandware.net/on/demandware.store/sites-searsca-site/default/account-startregister 
+18-Aug-2016 14:38:01:508 DEBUG [PoolService-0] Page Load Wait: (Sync) 
+18-Aug-2016 14:38:01:611 DEBUG [PoolService-0] Element is displayed:: [[RemoteWebDriver: chrome on XP (1769d96a-f89a-47e0-be5b-61f1b77f6d41)] -> css selector: input[id='dwfrm_profile_customer_email']] 
+18-Aug-2016 14:38:02:878 DEBUG [PoolService-0] Page URL:: https://development-initium-searsca.demandware.net/on/demandware.store/sites-searsca-site/default/account-startregister 
+18-Aug-2016 14:38:02:885 DEBUG [PoolService-0] Page Load Wait: (Sync) 
+18-Aug-2016 14:38:03:001 DEBUG [PoolService-0] Element is displayed:: [[RemoteWebDriver: chrome on XP (1769d96a-f89a-47e0-be5b-61f1b77f6d41)] -> css selector: input[id='dwfrm_profile_customer_emailconfirm']] 
+18-Aug-2016 14:38:05:035 DEBUG [PoolService-0] Page URL:: https://development-initium-searsca.demandware.net/on/demandware.store/sites-searsca-site/default/account-startregister 
+18-Aug-2016 14:38:05:036 DEBUG [PoolService-0] Page Load Wait: (Sync) 
+18-Aug-2016 14:38:05:143 DEBUG [PoolService-0] Element is displayed:: [[RemoteWebDriver: chrome on XP (1769d96a-f89a-47e0-be5b-61f1b77f6d41)] -> css selector: input[id*='dwfrm_profile_login_password']] 
+18-Aug-2016 14:38:05:970 DEBUG [PoolService-0] Page URL:: https://development-initium-searsca.demandware.net/on/demandware.store/sites-searsca-site/default/account-startregister 
+18-Aug-2016 14:38:05:971 DEBUG [PoolService-0] Page Load Wait: (Sync) 
+18-Aug-2016 14:38:06:203 DEBUG [PoolService-0] Element is displayed:: [[RemoteWebDriver: chrome on XP (1769d96a-f89a-47e0-be5b-61f1b77f6d41)] -> css selector: input[id*='dwfrm_profile_login_passwordconfirm']] 
+18-Aug-2016 14:38:07:338 DEBUG [PoolService-0] Page URL:: https://development-initium-searsca.demandware.net/on/demandware.store/sites-searsca-site/default/account-startregister 
+18-Aug-2016 14:38:07:340 DEBUG [PoolService-0] Page Load Wait: (Sync) 
+18-Aug-2016 14:38:07:636 DEBUG [PoolService-0] Element is displayed:: [[RemoteWebDriver: chrome on XP (1769d96a-f89a-47e0-be5b-61f1b77f6d41)] -> css selector: [value='Apply']] 
+18-Aug-2016 14:38:14:224 DEBUG [PoolService-0] Page URL:: https://development-initium-searsca.demandware.net/on/demandware.store/sites-searsca-site/default/account-show?registration=true 
+18-Aug-2016 14:38:14:225 DEBUG [PoolService-0] Page Load Wait: (Sync) 
+18-Aug-2016 14:38:14:601 INFO  [PoolService-0] Step 4.Account has been successfully created! 

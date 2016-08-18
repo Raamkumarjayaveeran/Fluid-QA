@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Fluid PUMA PoC" verbose="3" parallel="true" thread-count="5">
+	
+	<parameter name="securityTest" value="false" />
+	<parameter name="imageLoad" value="true" />
+	<parameter name="framesLoad" value="true" />
+	<parameter name="documentLoad" value="false" />
+
+	<parameter name="devicePort" value="4444" />
+	<parameter name="deviceHost" value="localhost" />
+
+	<parameter name="browserName" value="Chrome_windows" />
+	<parameter name="paymentDataProvider" value="PaymentTypes.txt" />
+	<parameter name="webSite"
+		value="https://development-initium-searsca.demandware.net/on/demandware.store/Sites-SearsCA-Site" />
+
+	<test name="Fluid PUMA" thread-count="5" >
+  <classes>
+    <class name="com.SECFramework.testscripts.SearsSmokeTC">
+      <methods>
+            <include name="tcAccountCreation"/>
+       </methods>
+        </class>
+  </classes>
+	</test>
+</suite>

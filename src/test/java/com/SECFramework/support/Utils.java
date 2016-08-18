@@ -93,13 +93,6 @@ public class Utils {
 			}
 		}
 		else {
-			checkDeviceExecution = (configProperty.hasProperty("runUserAgentDeviceTest") && (configProperty.getProperty("runUserAgentDeviceTest").equalsIgnoreCase("true"))) ? true : false;
-			if (checkDeviceExecution) {
-				dataToBeReturned = configProperty.hasProperty("deviceOrientation") ? configProperty.getProperty("deviceOrientation") : "no local run config variable: deviceOrientation ";
-			}
-			else {
-				dataToBeReturned = "local browser test: no orientation";
-			}
 		}
 		return dataToBeReturned;
 	}

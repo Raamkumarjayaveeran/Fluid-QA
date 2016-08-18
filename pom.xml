@@ -15,13 +15,6 @@
 	</properties>
 
 	<dependencies>
-		<dependency>
-			<groupId>ZAP.jar</groupId>
-			<artifactId>ZAPPlugin.jar</artifactId>
-			<scope>system</scope>
-			<version>1.0</version>
-			<systemPath>${basedir}\zapJar\zap-api-v2-6.jar</systemPath>
-		</dependency>
 		<!-- https://mvnrepository.com/artifact/io.appium/java-client -->
 		<dependency>
     		<groupId>io.appium</groupId>

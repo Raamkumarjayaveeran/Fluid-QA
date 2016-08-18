@@ -6,7 +6,6 @@ import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.util.Properties;
 
-import org.apache.commons.lang.StringUtils;
 import org.testng.log4testng.Logger;
 
 /**
@@ -126,8 +125,8 @@ public class EnvironmentPropertiesReader {
 		return properties.getProperty(key);
 	}
 
-	public boolean hasProperty(String key) {
-		return StringUtils.isNotBlank(properties.getProperty(key));
+	public void hasProperty(String key) {
+//		return StringUtils.isNotBlank(properties.getProperty(key));
 	}
 
 	/**
